@@ -1,0 +1,217 @@
+<odoo>
+
+    <template id="website_footer_cust" inherit_id="web.assets_frontend" name="Website footer cust">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/home_product/static/src/scss/style.scss"/>
+            <script type="text/javascript" src="/home_product/static/src/js/web_sale_page.js"/>
+        </xpath>
+    </template>
+
+
+    <template id="home_products" name="Home Products">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Shop</t>
+            <div id="wrap" class="js_sale">
+
+                <div class="wpb_text_column wpb_content_element ">
+                    <br></br>
+                    <div class="wpb_wrapper">
+                        <h3 style="text-align: center;font-family: poppins,Arial,Helvetica,sans-serif;">Wholesaler of Ethiopian Products</h3>
+                    </div>
+                </div>
+                <div>
+                    <span style="border-top-width: 4px; height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;"></span>
+                </div>
+
+
+
+
+                <div class="oe_structure oe_empty" id="oe_structure_website_sale_products_1"/>
+                <div class="container oe_website_sale">
+
+                    <div class="row o_wsale_products_main_row">
+                        <div id="products_grid" t-attf-class="col #{'o_wsale_layout_list' if layout_mode == 'list' else ''}">
+
+                            <div t-if="bins" class="o_wsale_products_grid_table_wrapper">
+                                <table class="table table-borderless m-0" t-att-data-ppg="ppg" t-att-data-ppr="ppr">
+                                    <colgroup t-ignore="true">
+                                        <!-- Force the number of columns (useful when only one row of (x < ppr) products) -->
+                                        <col t-foreach="ppr" t-as="p"/>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr t-foreach="bins" t-as="tr_product">
+                                            <t t-foreach="tr_product" t-as="td_product">
+                                                <t t-if="td_product">
+                                                    <t t-set="product" t-value="td_product['product']" />
+                                                    <!-- We use t-attf-class here to allow easier customization -->
+                                                    <td t-att-colspan="1"
+                                                        t-att-rowspan="1"
+                                                        t-attf-class="oe_product te_shop_grid"
+                                                        t-att-data-ribbon-id="td_product['ribbon'].id">
+                                                        <div t-attf-class="o_wsale_product_grid_wrapper o_wsale_product_grid_wrapper_#{1}_#{1}">
+                                                            <t t-call="home_product.home_products_item">
+                                                                <t t-set="product_image_big" t-value="1 + 1 &gt; 2"/>
+                                                            </t>
+                                                        </div>
+                                                    </td>
+                                                </t>
+                                                <td t-else=""/>
+                                            </t>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div>
+                                    <div>
+                                        <span style="border-top-width: 4px; height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;"></span>
+                                    </div>
+                                    <div>
+                                        <h2 style="text-align: center;"><span style="color: #212529;font-family: poppins,Arial,Helvetica,sans-serif;">To see a list of all our products click </span><a href="/shop"><span style="color: #57b518;">HERE</span></a></h2>
+
+                                    </div>
+                                    <br></br>
+
+                                    <div style="text-align: center;">
+                                        <div>
+                                            <h2 style="text-align: center;">Interested in working together?</h2>
+                                        </div>
+                                        <div class="oe_structure oe_structure_solo" id="oe_structure_header_default_1">
+                                            <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+                                                <div class="container">
+                                                    <a href="/contactus" class="btn btn-primary ml-4">Contact Us</a>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+<!--                    <div class="products_pager form-inline justify-content-center py-3">-->
+<!--                        <t t-call="website.pager"/>-->
+<!--                    </div>-->
+
+                </div>
+                <div class="oe_structure oe_empty" id="oe_structure_website_sale_products_2"/>
+
+            </div>
+        </t>
+    </template>
+
+
+
+
+
+
+        <template id="home_products_item" name="Home Products item">
+        <t t-set="product_href" t-value="keep(product.website_url, page=(pager['page']['num'] if pager['page']['num']&gt;1 else None))" />
+
+        <t t-set="combination_info" t-value="product._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)"/>
+
+        <form action="/shop/cart/update" method="post" class="card oe_product_cart"
+            t-att-data-publish="product.website_published and 'on' or 'off'"
+            itemscope="itemscope" itemtype="http://schema.org/Product">
+            <div class="card-body p-1 oe_product_image">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                <a t-att-href="product_href" class="d-block h-100" itemprop="url">
+                    <t t-set="image_holder" t-value="product._get_image_holder()"/>
+                    <span t-field="image_holder.image_1920"
+                        t-options="{'widget': 'image', 'preview_image': 'image_1920' if product_image_big else 'image_1920'}"
+                        class="new_span d-flex h-100 justify-content-center align-items-center"/>
+                </a>
+            </div>
+            <div class="card-body p-0 text-center o_wsale_product_information">
+                <div class="p-2 o_wsale_product_information_text te_shop_icon">
+                    <h6 class="o_wsale_products_item_title">
+                        <a itemprop="name" t-att-href="product_href" t-att-content="product.name" t-field="product.name" />
+                        <a role="button" t-if="not product.website_published" t-att-href="product_href" class="btn btn-sm btn-danger" title="This product is unpublished.">Unpublished</a>
+                    </h6>
+                    <div class="product_price" itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer">
+                        <del t-attf-class="text-danger mr-2 {{'' if combination_info['has_discounted_price'] else 'd-none'}}" style="white-space: nowrap;" t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                        <span t-if="combination_info['price']" t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+                        <span itemprop="price" style="display:none;" t-esc="combination_info['price']" />
+                        <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name" />
+                    </div>
+                </div>
+                <div class="o_wsale_product_btn_home">
+                    <div>
+                        <div class="input-group" style="width:50%;float: left;" contenteditable="false">
+                            <div class="input-group-prepend">
+                                <a t-attf-href="#" class="js_add_cart_json" aria-label="Remove one" title="Remove one" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            border-radius: 50%;
+                                                                            width: 30px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 14px;">
+                                    <i class="fa fa-minus"></i>
+                                </a>
+                            </div>
+                            <input type="text" class="btn form-control quantity" data-min="1" name="add_qty" t-att-value="add_qty or 1" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            width: 30px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 14px;"/>
+                            <div class="input-group-append">
+                                <a t-attf-href="#" class="float_left js_add_cart_json" aria-label="Add one" title="Add one" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            border-radius: 50%;
+                                                                            width: 30px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 14px;">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div style="text-align:right;bottom:80px;width:50%float: left;">
+                            <t t-set="product_variant_id" t-value="product._get_first_possible_variant_id()"/>
+                            <input name="product_id" t-att-value="product_variant_id" type="hidden"/>
+                            <t t-if="product_variant_id">
+                            <a href="#" role="button" style="border: 1px solid #ced4da;
+                                                                            background-color: #a5806d;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            width: 50px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 12px;"
+                               class="btn btn-secondary a-submit_new" aria-label="Shopping cart" title="Shopping cart">
+                                 <span><strong>Add</strong></span>
+                            </a>
+                            </t>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <t t-set="bg_color" t-value="td_product['ribbon']['bg_color'] or ''"/>
+            <t t-set="text_color" t-value="td_product['ribbon']['text_color']"/>
+            <t t-set="bg_class" t-value="td_product['ribbon']['html_class']"/>
+            <span t-attf-class="o_ribbon #{bg_class}" t-attf-style="#{text_color and ('color: %s; ' % text_color)}#{bg_color and 'background-color:' + bg_color}" t-raw="td_product['ribbon']['html'] or ''"/>
+        </form>
+    </template>
+
+
+
+</odoo>

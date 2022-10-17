@@ -1,0 +1,95 @@
+//输入焦点时有颜色
+.o_web_client input:focus,
+.o_web_client textarea:focus,
+.o_web_client select:focus {
+  border-color: $o-brand-primary;
+  font-weight: bold;
+}
+
+//菜单搜索常见
+.o_menu_search {
+  &.o_bar_hidden {
+    opacity: 0.9;
+  }
+}
+
+//主菜单加箭头
+.dropdown-menu .dropdown-header {
+  &::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+}
+//列表左右显示边框
+.o_list_view .table-responsive .o_list_table > thead > tr:first-child > th  {
+  border-left: 1px solid #dfdfdf;;
+  border-right: 1px solid #dfdfdf;;
+}
+//内容显示边框
+.o_list_view .table-responsive .o_list_table .o_data_row > .o_data_cell {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+.o_list_view .table-responsive .o_list_table .o_data_row:not(.o_selected_row) > .o_data_cell:not(.o_readonly_modifier):not(:last-child) {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+//选择列icon，避免被滚动条挡
+.o_content > .o_list_view > .table-responsive > .table .o_optional_columns_dropdown_toggle  {
+  padding: 8px 20px 8px 10px;
+}
+.o_list_view .table-responsive .o_optional_columns_dropdown_toggle  {
+  padding: 0 20px 0 5px;
+}
+//会导致searchpanel 不固顶
+.o_view_controller {
+  .o_controller_with_searchpanel .o_renderer_with_searchpanel {
+    overflow: auto;
+  }
+}
+// Notebooks ,form_view,移动端优化
+.o_form_view {
+  .o_notebook {
+    > .nav.nav-tabs {
+      > .nav-item {
+        > .nav-link {
+          //border-left-width: 0!important;
+          background-color: #fafafa;
+
+          &:hover, &:focus, &:active {
+            background-color: white;
+          }
+
+          &.active {
+            border-top-width: 2px;
+            //border-left-width: 1px!important;
+            //border-right-width: 1px!important;
+          }
+        }
+
+        &:first-child > .nav-link {
+          //border-left-width: 1px!important;
+        }
+      }
+    }
+  }
+
+  // 列表自定义显示调整
+  .o_content > .o_list_view > .table-responsive > .table .o_optional_columns_dropdown_toggle {
+    margin-right: 16px;
+  }
+}
+
+//  Kanban
+
+.o_kanban_view.o_kanban_grouped .o_kanban_record {
+  margin-bottom: 4px;
+}

@@ -1,0 +1,210 @@
+<odoo>
+    <data>
+        <template id="website_footer_cust" inherit_id="web.assets_frontend" name="Website footer cust">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/website_clone/static/src/scss/style.scss"/>
+                <script type="text/javascript" src="/website_clone/static/src/js/web_sale_page.js"></script>
+
+            </xpath>
+        </template>
+
+
+        <template id="website.footer_custom" inherit_id="website.layout" name="Footer">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer" style="background-color: rgba(130, 183, 53, 1) !important;">
+                    <section class="s_text_block pt40 pb16" data-snippet="s_text_block" data-name="Text">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2 pt24 pb24">
+<!--                                    <h5 class="mb-3">Useful Links</h5>-->
+                                    <ul class="list-unstyled">
+                                        <li><a href="/shop" style="color: #FFFFFF;">Our Products </a></li>
+                                        <li><a href="/my/home" style="color: #FFFFFF;">My Accounts</a></li>
+                                        <li><a href="/sela_cust_register" style="color: #FFFFFF;">Customer Registration</a></li>
+<!--                                        <li><a href="#">Products</a></li>-->
+<!--                                        <li><a href="#">Services</a></li>-->
+<!--                                        <li><a href="#">Legal</a></li>-->
+<!--                                        <li><a href="/contactus">Contact us</a></li>-->
+                                    </ul>
+                                </div>
+
+                                <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24">
+                                    <h5 class="mb-3">Connect with us</h5>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-comment fa-fw mr-2"/><span><a href="/contactus" style="color: #FFFFFF;">Contact us</a></span></li>
+                                        <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com" style="color: #FFFFFF;">info@yourcompany.example.com</a></span></li>
+                                        <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 691-3277" style="color: #FFFFFF;">+1 (650) 691-3277</a></span></li>
+                                        <li><a href="/aboutus" style="color: #FFFFFF;">About Us</a></li>
+                                        <li><a href="/terms" style="color: #FFFFFF;">Terms and Conditions</a></li>
+                                        <li><a href="/faq" style="color: #FFFFFF;">Frequently Asked Questions</a></li>
+                                    </ul>
+                                    <div class="s_share text-left" data-name="Social Media">
+                                        <h5 class="s_share_title d-none">Follow us</h5>
+                                        <a href="https://www.facebook.com/Selamta-Import-and-Export-206766002863808/" class="s_share_facebook" target="_blank">
+                                            <i class="fa fa-facebook rounded-circle shadow-sm"/>
+                                        </a>
+                                        <a href="https://www.instagram.com/selamtausa/?hl=en" class="s_share_instagram" target="_blank">
+                                            <i class="fa fa-instagram rounded-circle shadow-sm"></i>
+                                        </a>
+<!--                                        <a href="/website/social/twitter" class="s_share_twitter" target="_blank">-->
+<!--                                            <i class="fa fa-twitter rounded-circle shadow-sm"/>-->
+<!--                                        </a>-->
+<!--                                        <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">-->
+<!--                                            <i class="fa fa-linkedin rounded-circle shadow-sm"/>-->
+<!--                                        </a>-->
+<!--                                        <a href="/" class="text-800 float-right">-->
+<!--                                            <i class="fa fa-home rounded-circle shadow-sm"/>-->
+<!--                                        </a>-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 pt24 pb24">
+                                    <h5 class="mb-3">About us</h5>
+                                    <p>We are WHOLESALE providers importing a variety of spices/dry foods and cultural household goods directly from Ethiopia and several other countries to United States
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+
+        <template id="website.template_header_default_oe_structure_header_default_1" inherit_id="website.template_header_default" name="Template Header Default (oe_structure_header_default_1)">
+            <xpath expr="//*[hasclass('oe_structure')][@id='oe_structure_header_default_1']" position="replace">
+                <div class="oe_structure oe_structure_solo" id="oe_structure_header_default_1">
+                    <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+                        <div class="container" style="display:none;">
+                            <a href="/contactus" class="btn btn-primary ml-4">Contact Us</a>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+
+        <template id="template_header_default_inherit" inherit_id="website.template_header_default" name="Template Header Default Inherit" >
+            <xpath expr="//div[@id='top_menu_collapse']" position="after">
+
+                <div class="main">
+<!--                    <div class="sub">-->
+<!--                        <a  href="https://www.facebook.com/Selamta-Import-and-Export-206766002863808/" target="_blank"><i class="p5 fa fa-facebook"/></a>-->
+<!--                        <a  href="https://www.instagram.com/selamtausa/?hl=en" target="_blank"><i class="p5 fa fa-instagram"/></a>-->
+
+
+<!--                    </div>-->
+                </div>
+
+            </xpath>
+
+        </template>
+
+
+
+
+
+
+        <record id="about_us" model="website.menu">
+            <field name="name">About us</field>
+            <field name="url">/aboutus</field>
+            <field name="sequence" type="int">57</field>
+        </record>
+
+
+
+
+
+
+            <template id="aboutus"  name="About us">
+                <t t-name="website.about_us">
+                    <t t-call="website.layout">
+                      <div id="wrap" class="oe_structure oe_empty">
+
+                          <div class="container">
+                              <article id="" class="">
+
+                                <div class="  ">
+                                <div class="" style="margin: 0;padding: 0;border: 0;vertical-align: baseline;font: inherit;font-size: 100%;">
+                                <h1 style="text-align: center;">Our Story</h1>
+                                </div>
+                                </div>
+                                <div class=""><span class=""><span class=""></span></span><span class=" "><span class=""></span></span>
+                                </div>
+                                <div class="">
+                                <div class="">
+                                <h4 style="text-align: left;">We are WHOLESALE providers importing a variety of spices/dry foods and cultural household goods directly from Ethiopia and several other countries to United States. While our headquarter is located<span class="text_exposed_show"> in Atlanta, Georgia, we distribute our products to retail stores and restaurants all over the United States.</span></h4>
+                                <h4 style="text-align: left;">Our mission is to provide our customers with a timely delivery of the best quality products at reasonable prices. By doing so, we strive to gain their trust towards becoming a reliable partner in their area of business.</h4>
+                                </div>
+                                </div>
+                                <div class=" ">
+                                    <div class="">
+                                        <h2 style="text-align: center;">Interested in Working Together?</h2>
+                                    </div>
+                                </div>
+                                  <div style="text-align: center;">
+                                <div style="text-align: center;" class="contact_button"><a class="" href="/contactus" title="Contact Us">Contact US</a></div></div><div class="" style="height: 32px"><span class=""></span></div>
+                              </article>
+
+                          </div>
+                      </div>
+                    </t>
+                </t>
+
+            </template>
+
+
+
+            <template id="terms"  name="Terms">
+                <t t-name="website.terms">
+                    <t t-call="website.layout">
+                      <div id="wrap" class="oe_structure oe_empty">
+
+                          <div class="container">
+                              <article id="" class="">
+
+
+                              </article>
+
+                          </div>
+                      </div>
+                    </t>
+                </t>
+
+            </template>
+
+
+        <template id="faq"  name="FAQ">
+                <t t-name="website.faq">
+                    <t t-call="website.layout">
+                      <div id="wrap" class="oe_structure oe_empty">
+
+                          <div class="container">
+                              <article id="" class="">
+
+                                  <div class="faq-content">
+                                    <h3><strong>What is the minimum order for spices and grains?</strong></h3>
+                                    <p class="has-medium-font-size">The minimum order is 5 kg and you can order in multiples of 5. For example 5 kg, 10 kg, 15 kg, etc.</p>
+                                    <h3><strong>What is the minimum order for household items?</strong></h3>
+                                    <p class="has-medium-font-size">You can order any amount. For example 1, 2, 3, etc. However if the item is fragile like glass or clay, they are pre boxed and it depends on what item it is. Please call us to discuss.</p>
+                                    <h3><strong>Do you offer free shipping?</strong></h3>
+                                    <p class="has-medium-font-size">We offer free shipping for orders that are greater that $2000.</p>
+                                    <h2></h2>
+                                  </div>
+                                  <div class="" style="height: 32px"><span class=""></span></div>
+
+
+                              </article>
+
+                          </div>
+                      </div>
+                    </t>
+                </t>
+
+            </template>
+
+
+
+
+
+    </data>
+</odoo>

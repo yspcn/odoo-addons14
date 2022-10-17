@@ -1,0 +1,92 @@
+<odoo>
+    <data>
+
+
+
+         <template id="assets_frontend" inherit_id="website.assets_frontend" name="Product qunat">
+          <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/product_quant/static/src/js/qunat.js"></script>
+              <link rel="stylesheet" type="text/scss" href="/product_quant/static/src/scss/qunat.scss"/>
+          </xpath>
+        </template>
+
+
+
+
+        <template id="add_qty" inherit_id="website_sale.products_item" customize_show="True" name="Add Quantity" >
+        <xpath expr="//div[hasclass('o_wsale_product_btn')]" position="before">
+            <div>
+                <div>
+                        <div class="input-group" style="width:50%;float: left;" contenteditable="false">
+                            <div class="input-group-prepend">
+                                <a t-attf-href="#" class="js_add_cart_json" aria-label="Remove one" title="Remove one" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            border-radius: 50%;
+                                                                            width: 30px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            text-align:center;
+                                                                            font-size: 14px;">
+                                    <i class="fa fa-minus"></i>
+                                </a>
+                            </div>
+                            <input type="text" class="btn form-control quantity" data-min="1" name="add_qty" t-att-value="add_qty or 1" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            width: 30px;
+                                                                            max-width:50px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 14px;"/>
+                            <div class="input-group-append">
+                                <a t-attf-href="#" class="float_left js_add_cart_json" aria-label="Add one" title="Add one" style="border: 1px solid #ced4da;
+                                                                            background-color: #ffffff;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            border-radius: 50%;
+                                                                            width: 30px;
+                                                                            height: 36px;
+                                                                            text-align:center;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 14px;">
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div style="text-align:right;bottom:80px;width:50%float: left;">
+                            <t t-set="product_variant_id" t-value="product._get_first_possible_variant_id()"/>
+                            <input name="product_id" t-att-value="product_variant_id" type="hidden"/>
+                            <t t-if="product_variant_id">
+                            <a href="#" role="button" style="border: 1px solid #ced4da;
+                                                                            background-color: #a5806d;
+                                                                            color: #4c5462;
+                                                                            z-index: 2;
+                                                                            width: 50px;
+                                                                            height: 36px;
+                                                                            line-height: 36px;
+                                                                            padding: 0;
+                                                                            font-size: 12px;"
+                               class="btn btn-secondary a-submit_new" aria-label="Shopping cart" title="Shopping cart">
+                                 <span><strong>Add</strong></span>
+                            </a>
+                            </t>
+
+
+
+                        </div>
+
+                    </div>
+            </div>
+        </xpath>
+    </template>
+
+
+    </data>
+</odoo>

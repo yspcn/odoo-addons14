@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="pos_restaurant_network_printer_form" model="ir.ui.view">
+        <field name="name">pos.restaurant.network.printer</field>
+        <field name="model">restaurant.printer</field>
+        <field name="inherit_id" ref="pos_restaurant.view_restaurant_printer_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='printer_type']" position="after">
+                <field name="restaurant_escpos_printer_ip" attrs="{'invisible': [('printer_type', '!=', 'escpos_ip_printer')]}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="pos_restaurant_network_printer_tree" model="ir.ui.view">
+        <field name="name">pos.restaurant.network.printer</field>
+        <field name="model">restaurant.printer</field>
+        <field name="inherit_id" ref="pos_restaurant.view_restaurant_printer"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="printer_type"/>
+                <field name="restaurant_escpos_printer_ip"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

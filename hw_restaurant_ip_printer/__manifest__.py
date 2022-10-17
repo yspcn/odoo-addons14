@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+{
+    'name': "Bar/Restaurant ESC/POS IP Network Printer Drivers",
+    'support': "support@optima.co.ke",
+    'license': "OPL-1",
+    'price': 20,
+    'currency': "EUR",
+    'summary': """
+        Print Bar/Restaurant orders & bills using ESCPOS IP network printer. Works
+        without PosBox""",
+    'description': """
+Bar/Restaurant IP Network Printer for Orders & Receipts
+=======================================================
+Print receipt & orders in Bar/Restaurant using IP network printers. Works
+without PosBox and you can add multiple printers
+
+* Allows you to connect and print  directly from ESCPOS IP printer either via WLAN or LAN
+
+* All you need to know is the IP address and port of your IP based printer, default port is 9100.
+
+* Compatible with a wide range of ESCPOS printers in the market.
+
+* Supported character sets:
+    cp437,
+    cp850,
+    cp852,
+    cp857,
+    cp858,
+    cp860,
+    cp863,
+    cp865,
+    cp866,
+    cp862,
+    cp720,
+    cp936,
+    iso8859_2,
+    iso8859_7,
+    iso8859_9,
+    cp1254,
+    cp1255,
+    cp1256,
+    cp1257,
+    cp1258,
+    katakana
+
+* You can switch back to other tiypes of printers supported by Odoo such as USB printer if necessary
+
+* You can connect to as many printers as you want.
+
+    """,
+    'author': "Optima ICT Service LTD",
+    'website': "http://www.optima.co.ke",
+
+    # Categories can be used to filter modules in modules listing
+    # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/module/module_data.xml
+    # for the full list
+    'category': 'Point of Sale',
+    'version': '14.0.0.1.0',
+
+    # any module necessary for this one to work correctly
+    'depends': ['pos_restaurant', 'hw_escpos_network_printer'],
+
+    # always loaded
+    'images': ['static/description/main.gif'],
+    'data': [
+        'views/pos_restaurant_view.xml',
+        'views/templates.xml',
+    ],
+    # only loaded in demonstration mode
+    'demo': [],
+    'application': True,
+}

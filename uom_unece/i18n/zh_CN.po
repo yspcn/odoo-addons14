@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* uom_unece
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: uom_unece
+#: model:ir.model,name:uom_unece.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "产品计量单位"
+
+#. module: uom_unece
+#: model:ir.model.fields,help:uom_unece.field_uom_uom__unece_code
+msgid ""
+"Standard nomenclature of the United Nations Economic Commission for Europe "
+"(UNECE)."
+msgstr "联合国欧洲经济委员会（UNECE）的标准术语。"
+
+#. module: uom_unece
+#: model:ir.model.fields,field_description:uom_unece.field_uom_uom__unece_code
+msgid "UNECE Code"
+msgstr "欧洲经委会代码"

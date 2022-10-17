@@ -1,0 +1,3767 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_tax_unece
+# 	* l10n_cn_standard_latest
+# 	* om_account_accountant
+# 	* account_qr_code_sepa
+# 	* accounting_pdf_reports
+# 	* snailmail_account
+# 	* om_account_bank_statement_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210723\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-26 04:02+0000\n"
+"PO-Revision-Date: 2021-07-26 15:41+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: om_account_bank_statement_import
+#. openerp-web
+#: code:addons/om_account_bank_statement_import/static/src/js/account_bank_statement_import.js:0
+#, python-format
+msgid " Import Template for Bank Statements"
+msgstr " 银行对账单的导入模板"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d 个数据已被导入并被忽略。"
+
+#. module: snailmail_account
+#: code:addons/snailmail_account/wizard/account_invoice_send.py:0
+#, python-format
+msgid "%s of the selected invoice(s) had an invalid address and were not sent"
+msgstr "%s 所选发票的地址无效且未发送"
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_purchase_0
+msgid "0%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_0
+msgid "0%销项税"
+msgstr ""
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 个交易已被导入并被忽略。"
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_10
+msgid "10%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_10
+msgid "10%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_included_10
+msgid "10%销项税(含)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn11_dept
+msgid "11%离境退税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_13
+msgid "13%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_13
+msgid "13%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_included_13
+msgid "13%销项税(含)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.chart.template,name:l10n_cn_standard_latest.l10n_chart_china_standard_business_latest
+msgid "2021中国企业会计科目表-odoo14"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_3
+msgid "3%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_included_3
+msgid "3%销项税(含)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_6
+msgid "6%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_6
+msgid "6%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_included_6
+msgid "6%销项税(含)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn08_dept
+msgid "8%离境退税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn09_ex
+msgid "9%出口退税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_9
+msgid "9%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_9
+msgid "9%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,name:l10n_cn_standard_latest.l10n_cn_standard_sale_included_9
+msgid "9%销项税(含)"
+msgstr ""
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid ": General ledger"
+msgstr ": 总账"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid ": Trial Balance"
+msgstr ": 试算表"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
+msgid ""
+"<i class=\"fa fa-info-circle\" role=\"img\" aria-label=\"Warning\" title="
+"\"Make sure you have enough Stamps on your account.\"/>\n"
+"                                )"
+msgstr ""
+"<i class=\"fa fa-info-circle\" role=\"img\" aria-label=\"Warning\" title=\"确"
+"保您的帐户上有足够的邮票。\"/>\n"
+"                                )"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"此处设置的值是特定于公司"
+"的。\"/>"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
+msgid ""
+"<span class=\"text-danger\">\n"
+"                                            The customer address is not "
+"complete.\n"
+"                                        </span>"
+msgstr ""
+"<span class=\"text-danger\">\n"
+"                                            客户地址不完整。\n"
+"                                        </span>"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
+msgid ""
+"<span class=\"text-danger\">\n"
+"                                        Some customer addresses are not "
+"complete.\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"text-danger\">\n"
+"                                        部分客户地址不完整。\n"
+"                                    </span>"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
+msgid "<span> to: </span>"
+msgstr "<span> 到： </span>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<span>Not due</span>"
+msgstr "<span>未到期</span>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "<strong>Company:</strong>"
+msgstr "<strong>公司：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Date from :</strong>"
+msgstr "<strong>日期：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Date to :</strong>"
+msgstr "<strong>日期：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Display Account:</strong>"
+msgstr "<strong>显示帐户：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Display Account</strong>"
+msgstr "<strong>显示帐户</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Entries Sorted By:</strong>"
+msgstr "<strong>条目排序方式：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Journal:</strong>"
+msgstr "<strong>日记账：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Journals:</strong>"
+msgstr "<strong>日记帐：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Partner's:</strong>"
+msgstr "<strong>合作伙伴：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Period Length (days)</strong>"
+msgstr "<strong>周期长度（天）</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "<strong>Purchase</strong>"
+msgstr "<strong>购买</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Sorted By:</strong>"
+msgstr "<strong>排序依据：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>开始日期：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>目标移动：</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Total</strong>"
+msgstr "<strong>全部</strong>"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.constraint,message:om_account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
+msgid "A bank account transactions can be imported only once !"
+msgstr "一个银行账户交易只能导入一次！"
+
+#. modules: l10n_cn_standard_latest, accounting_pdf_reports
+#: model:ir.model,name:l10n_cn_standard_latest.model_account_account
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Account"
+msgstr "账户"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_aged_trial_balance
+msgid "Account Aged Trial balance Report"
+msgstr "账龄试算表报表"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model,name:l10n_cn_standard_latest.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "科目表模板"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_common_account_report
+msgid "Account Common Account Report"
+msgstr "账户常用账户报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_common_partner_report
+msgid "Account Common Partner Report"
+msgstr "客户共同合作伙伴报告"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_partner_id
+msgid "Account Holder"
+msgstr "账户持有人"
+
+#. module: snailmail_account
+#: model:ir.model,name:snailmail_account.model_account_invoice_send
+msgid "Account Invoice Send"
+msgstr "帐户发票发送"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_acc_number
+msgid "Account Number"
+msgstr "帐号"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_report_partner_ledger
+msgid "Account Partner Ledger"
+msgstr "帐户伙伴分类帐"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_print_journal
+msgid "Account Print Journal"
+msgstr "科目打印日记帐"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_financial_report
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__children_ids
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_tree
+msgid "Account Report"
+msgstr "会计报表"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__account_report_id
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_reports
+msgid "Account Reports"
+msgstr "会计报表"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Account Total"
+msgstr "账户合计"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__account_type
+msgid "Account Type"
+msgstr "账户类型"
+
+#. modules: om_account_accountant, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__account_type_ids
+#: model:ir.ui.menu,name:om_account_accountant.account_type_menu
+msgid "Account Types"
+msgstr "账户类型"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Accounting"
+msgstr "会计"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_accounting_report
+msgid "Accounting Report"
+msgstr "会计报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__account_ids
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__accounts
+msgid "Accounts"
+msgstr "账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
+msgid "Action Needed"
+msgstr "必须操作"
+
+#. modules: l10n_cn_standard_latest, om_account_bank_statement_import
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_tax_group__active
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
+msgid "Active"
+msgstr "活跃"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动例外装饰"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_note
+msgid "Activity Summary"
+msgstr "活动摘要"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
+msgid "Activity User"
+msgstr "活动用户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_type_id
+msgid ""
+"Activity will be automatically scheduled on payment due date, improving "
+"collection process."
+msgstr "活动将在付款到期日自动安排，从而改进收款流程。"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_balance_view
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_aged_partner_balance
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_trial_balance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Aged Partner Balance"
+msgstr "账期伙人余额"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_agedpartnerbalance
+msgid "Aged Partner Balance Report"
+msgstr "账期合伙人余额报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_payable
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_payable
+msgid "Aged Payable"
+msgstr "应付账款账期"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_receivable
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_receivable
+msgid "Aged Receivable"
+msgstr "应收账款账期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
+msgid "Alias Name"
+msgstr "别名"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_domain
+msgid "Alias domain"
+msgstr "别名域"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__all
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__all
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__all
+msgid "All"
+msgstr "全部"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All Entries"
+msgstr "所有条目"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All Posted Entries"
+msgstr "所有过帐条目"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All accounts"
+msgstr "所有帐户"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "All accounts'"
+msgstr "所有帐户'"
+
+#. module: om_account_accountant
+#: model:res.groups,name:om_account_accountant.group_fiscal_year
+msgid "Allow to define fiscal years of more or less than a year"
+msgstr "允许定义一年以上或一年以下的会计年度"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type_control_ids
+msgid "Allowed account types"
+msgstr "允许的帐户类型"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__account_control_ids
+msgid "Allowed accounts"
+msgstr "允许的帐户"
+
+#. module: snailmail_account
+#: model:ir.model.fields,help:snailmail_account.field_account_invoice_send__snailmail_is_letter
+msgid ""
+"Allows to send the document by Snailmail (conventional posting delivery "
+"service)"
+msgstr "允许通过 Snailmail 发送文件（常规邮寄递送服务）"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Already imported items"
+msgstr "已导入项目"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Analytic Account"
+msgstr "分析帐户"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_assets0
+msgid "Assets"
+msgstr "资产"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_inbound
+msgid "At Least One Inbound"
+msgstr "至少一个入站"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_outbound
+msgid "At Least One Outbound"
+msgstr "至少一个出站"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: accounting_pdf_reports
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_audit_reports
+msgid "Audit Reports"
+msgstr "审计报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__0
+msgid "Automatic formatting"
+msgstr "自动格式化"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Balance"
+msgstr "资产"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_balancesheet0
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_report_bs
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report_bs
+msgid "Balance Sheet"
+msgstr "资产负债表"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
+#, python-format
+msgid "Bank"
+msgstr "银行"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_account_id
+msgid "Bank Account"
+msgstr "银行账户"
+
+#. module: account_qr_code_sepa
+#: model:ir.model,name:account_qr_code_sepa.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "银行账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
+msgid "Bank Feeds"
+msgstr "银行提要"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid "Bank Journal Name"
+msgstr "银行日记帐名称"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "银行对账单行"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_setup_bank_manual_config
+msgid "Bank setup manual config"
+msgstr "银行设置手册配置"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
+msgid ""
+"Bank statements transactions will be posted on the suspense account until "
+"the final reconciliation allowing finding the right account."
+msgstr "银行对帐单交易将过帐到暂记帐户，直到最终对帐允许找到正确的帐户。"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Base Amount"
+msgstr "基本金额"
+
+#. modules: om_account_accountant, om_account_bank_statement_import,
+#. accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.view_change_lock_date
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Cancel"
+msgstr "取消"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"Cannot find in which journal import this statement. Please manually select a "
+"journal."
+msgstr "找不到在哪个期刊中导入此语句。 请手动选择期刊。"
+
+#. module: l10n_cn_standard_latest
+#: code:addons/l10n_cn_standard_latest/models/account_account.py:0
+#: code:addons/l10n_cn_standard_latest/models/account_chart_template.py:0
+#, python-format
+msgid "Cannot generate an unused account code."
+msgstr "无法生成未使用的帐户代码。"
+
+#. module: om_account_accountant
+#: model:ir.model,name:om_account_accountant.model_change_lock_date
+msgid "Change Lock Date"
+msgstr "更改锁定日期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
+msgid ""
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+msgstr "如果您不想共享从此日记帐制作的发票和贷项通知单的相同顺序，请选中此框"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account__child_ids
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template__child_ids
+msgid "Child Chart"
+msgstr "子图表"
+
+#. module: om_account_accountant
+#: model_terms:ir.actions.act_window,help:om_account_accountant.actions_account_fiscal_year
+msgid "Click here to create a new fiscal year."
+msgstr "单击此处创建新的会计年度。"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Code"
+msgstr "代码"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__color
+msgid "Color Index"
+msgstr "颜色索引"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__label_filter
+msgid "Column Label"
+msgstr "列标签"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通讯标准"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
+msgid "Communication Type"
+msgstr "通讯方式"
+
+#. module: snailmail_account
+#: model:ir.model,name:snailmail_account.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. modules: om_account_accountant, om_account_bank_statement_import,
+#. accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__company_id
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__company_id
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__company_id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_id
+msgid "Company"
+msgstr "单位"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_id
+msgid "Company related to this journal"
+msgstr "与本刊相关的公司"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_report_view
+msgid "Comparison"
+msgstr "对比"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
+msgid "Compatible Edi"
+msgstr "兼容 Edi"
+
+#. module: snailmail_account
+#: model:ir.model,name:snailmail_account.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file ?"
+msgstr ""
+"无法理解指定的文件。\n"
+"您是否安装了支持这种类型文件的模块？"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__country_code
+msgid "Country Code"
+msgstr "国家代码"
+
+#. modules: snailmail_account, om_account_accountant,
+#. om_account_bank_statement_import, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__create_uid
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__create_uid
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__create_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__create_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. modules: snailmail_account, om_account_accountant,
+#. om_account_bank_statement_import, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__create_date
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__create_date
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__create_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__create_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Credit"
+msgstr "信用"
+
+#. modules: accounting_pdf_reports, l10n_cn_standard_latest,
+#. om_account_bank_statement_import
+#: model:ir.model,name:l10n_cn_standard_latest.model_res_currency
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Currency"
+msgstr "货币"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_print_journal__sort_selection__date
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__sortby__sort_date
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__accounting_report__filter_cmp__filter_date
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Date"
+msgstr "日期"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Date:"
+msgstr "日期："
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_report_view
+msgid "Dates"
+msgstr "日期"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Debit"
+msgstr "借记"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
+msgid "Dedicated Credit Note Sequence"
+msgstr "专用信用票据序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_account_id
+msgid "Default Account"
+msgstr "默认账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_account_type
+msgid "Default Account Type"
+msgstr "默认账户类型"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Define fiscal years of more or less than one year"
+msgstr "定义一年以上或一年以下的会计年度"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
+msgid "Defines how the bank statements will be registered"
+msgstr "定义银行对账单的登记方式"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__display_account
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__display_account
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__display_account
+msgid "Display Accounts"
+msgstr "显示帐户"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__debit_credit
+msgid "Display Debit/Credit Columns"
+msgstr "显示借方/贷方列"
+
+#. modules: account_tax_unece, l10n_cn_standard_latest, om_account_accountant,
+#. account_qr_code_sepa, accounting_pdf_reports, snailmail_account,
+#. om_account_bank_statement_import
+#: model:ir.model.fields,field_description:account_qr_code_sepa.field_res_partner_bank__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__display_name
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_agedpartnerbalance__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_financial__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_journal__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_partnerledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_tax__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_trialbalance__display_name
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account__display_name
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template__display_name
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_tax_group__display_name
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_res_currency__display_name
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__display_name
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config__display_name
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__display_name
+#: model:ir.model.fields,field_description:snailmail_account.field_res_company__display_name
+#: model:ir.model.fields,field_description:snailmail_account.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__detail_flat
+msgid "Display children flat"
+msgstr "平面显示子对象"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__detail_with_hierarchy
+msgid "Display children with hierarchy"
+msgstr "显示具有层次结构的子级"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__display_detail
+msgid "Display details"
+msgstr "显示详细信息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
+msgid "EDI format that support moves in this journal"
+msgstr "本期刊支持移动的EDI格式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
+msgid "Electronic invoicing"
+msgstr "电子发票"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
+msgid "Email Alias"
+msgstr "邮件别名"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__enable_filter
+msgid "Enable Comparison"
+msgstr "启用比较"
+
+#. modules: om_account_accountant, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_to_cmp
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__date_to
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_account_fiscal_year__date_to
+msgid "Ending Date, included in the fiscal year."
+msgstr "结束日期，包括在会计年度中。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__sort_selection
+msgid "Entries Sorted by"
+msgstr "条目排序依据"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "Entry Label"
+msgstr "入口标签"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Excel Reports"
+msgstr "Excel报表"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_expense0
+msgid "Expense"
+msgstr "费用"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__attachment_ids
+msgid "Files"
+msgstr "文件"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__filter_cmp
+msgid "Filter by"
+msgstr "筛选依据"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_financial
+msgid "Financial Report"
+msgstr "财务报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__style_overwrite
+msgid "Financial Report Style"
+msgstr "财务报告风格"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_financial_report_tree
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_financial
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_legal_statement
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_reports_settings
+msgid "Financial Reports"
+msgstr "财务报告"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Financial Reports in Excel"
+msgstr "Excel财务报表"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Fiscal Period Closing"
+msgstr "会计期间结束"
+
+#. module: om_account_accountant
+#: model:ir.model,name:om_account_accountant.model_account_fiscal_year
+#: model:ir.ui.menu,name:om_account_accountant.menu_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Fiscal Year"
+msgstr "会计年度"
+
+#. module: om_account_accountant
+#: model:ir.actions.act_window,name:om_account_accountant.actions_account_fiscal_year
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__group_fiscal_year
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Fiscal Years"
+msgstr "会计年度"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_last_day
+msgid "Fiscalyear Last Day"
+msgstr "财政年度最后一天"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_last_month
+msgid "Fiscalyear Last Month"
+msgstr "上个月的财政年度"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_follower_ids
+msgid "Followers"
+msgstr "关注"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者（频道）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体真棒图标，例如 fa-tasks"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_financial_report__sign
+msgid ""
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
+"对于通常借方多于贷方的帐户，并且您希望在报告中将其打印为负数，您应该反转余额"
+"的符号； 例如：费用账户。 这同样适用于通常贷记多于借记且您希望在报告中打印为"
+"正金额的帐户； 例如：收入账户。"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/reports/report_aged_partner.py:0
+#: code:addons/accounting_pdf_reports/reports/report_financial.py:0
+#: code:addons/accounting_pdf_reports/reports/report_general_ledger.py:0
+#: code:addons/accounting_pdf_reports/reports/report_journal.py:0
+#: code:addons/accounting_pdf_reports/reports/report_partner_ledger.py:0
+#: code:addons/accounting_pdf_reports/reports/report_tax.py:0
+#: code:addons/accounting_pdf_reports/reports/report_trial_balance.py:0
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "缺少表单内容，无法打印此报告。"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_general_ledger_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_general_ledger
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_general_ledger
+msgid "General Ledger"
+msgstr "总帐"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_report_general_ledger
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_general_ledger
+msgid "General Ledger Report"
+msgstr "总分类帐报告"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import__attachment_ids
+msgid ""
+"Get you bank statements in electronic format from your bank and select them "
+"here."
+msgstr "从您的银行获取电子格式的银行对账单并在此处选择。"
+
+#. module: l10n_cn_standard_latest
+#: model_terms:ir.ui.view,arch_db:l10n_cn_standard_latest.app_view_account_search
+msgid "Group"
+msgstr "组"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Group By"
+msgstr "分组依据"
+
+#. modules: account_tax_unece, l10n_cn_standard_latest, om_account_accountant,
+#. account_qr_code_sepa, accounting_pdf_reports, snailmail_account,
+#. om_account_bank_statement_import
+#: model:ir.model.fields,field_description:account_qr_code_sepa.field_res_partner_bank__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__id
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_agedpartnerbalance__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_financial__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_general_ledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_journal__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_partnerledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_tax__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_trialbalance__id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account__id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template__id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_chart_template__id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_tax_group__id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_res_currency__id
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__id
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config__id
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__id
+#: model:ir.model.fields,field_description:snailmail_account.field_res_company__id
+#: model:ir.model.fields,field_description:snailmail_account.field_res_config_settings__id
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__id
+msgid "ID"
+msgstr ""
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新邮件。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件有传递错误。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"If it contains transactions for more than one account, it must be imported "
+"on each of them."
+msgstr "如果它包含多个账户的交易，则必须在每个账户上导入。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
+msgid ""
+"If ticked, the accounting entry or invoice receives a hash as soon as it is "
+"posted and cannot be modified anymore."
+msgstr "如果勾选，会计分录或发票一过帐就会收到一个哈希值，并且不能再修改。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_report_general_ledger__initial_balance
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
+msgstr ""
+"如果您选择了日期，此字段允许您添加一行，以显示设置的筛选器之前的借方/贷方/余"
+"额金额。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_journal.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+#, python-format
+msgid "Import"
+msgstr "导入"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr "导入银行对账单"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__unique_import_id
+msgid "Import ID"
+msgstr "导入 ID"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+msgid "Import Statement"
+msgstr "导入声明"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
+msgid "Inbound Payment Methods"
+msgstr "入库付款方式"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__initial_balance
+msgid "Include Initial Balances"
+msgstr "包括初始余额"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_income0
+msgid "Income"
+msgstr "收入"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_debit_account_id
+msgid ""
+"Incoming payments entries triggered by invoices/refunds will be posted on "
+"the Outstanding Receipts Account and displayed as blue lines in the bank "
+"reconciliation widget. During the reconciliation process, concerned "
+"transactions will be reconciled with entries on the Outstanding Receipts "
+"Account instead of the receivable account."
+msgstr ""
+"由发票/退款触发的收款条目将发布在未结收款帐户中，并在银行对帐小部件中显示为蓝"
+"线。 在对账过程中，相关交易将与未收账款账户中的条目对账，而不是应收账款账户。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.actions.act_window,name:om_account_bank_statement_import.install_more_import_formats_action
+msgid "Install Import Format"
+msgstr "安装导入格式"
+
+#. module: snailmail_account
+#: code:addons/snailmail_account/wizard/account_invoice_send.py:0
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__invalid_invoice_ids
+#, python-format
+msgid "Invalid Addresses"
+msgstr "无效地址"
+
+#. module: snailmail_account
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__invalid_addresses
+msgid "Invalid Addresses Count"
+msgstr "无效地址数"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Invalid file!"
+msgstr "无效的文件！"
+
+#. module: snailmail_account
+#: code:addons/snailmail_account/wizard/account_invoice_send.py:0
+#, python-format
+msgid "Invoice"
+msgstr "发票"
+
+#. module: snailmail_account
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__invoice_send_id
+msgid "Invoice Send"
+msgstr "发票发送"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_report_partner_ledger__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr "如果货币与公司货币不同，则在报表中添加货币列。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
+msgid "It creates draft invoices and bills by sending an email."
+msgstr "它通过发送电子邮件来创建草稿发票和账单。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__5
+msgid "Italic Text (smaller)"
+msgstr "斜体文本（较小）"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "JRNL"
+msgstr ""
+
+#. modules: accounting_pdf_reports, om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_journal
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Journal"
+msgstr "分类账"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__sortby__sort_journal_partner
+msgid "Journal & Partner"
+msgstr "日志和合作伙伴"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_journal
+msgid "Journal Audit Report"
+msgstr "日记账审计报告"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+#, python-format
+msgid "Journal Creation"
+msgstr "期刊创建"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_import_journal_creation
+msgid "Journal Creation on Bank Statement Import"
+msgstr "银行对账单导入的日记帐创建"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_print_journal__sort_selection__move_name
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Journal Entry Number"
+msgstr "日记账分录编号"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_group_ids
+msgid "Journal Groups"
+msgstr "期刊组"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__name
+msgid "Journal Name"
+msgstr "期刊名称"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "Journal and Partner"
+msgstr "日记帐和合作伙伴"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Journal:"
+msgstr "日记账："
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__journal_ids
+msgid "Journals"
+msgstr "日记账"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_print_journal_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_journal
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_print_journal
+msgid "Journals Audit"
+msgstr "日记账审计"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_journal_entries
+msgid "Journals Entries"
+msgstr "日记账分录"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__json_activity_data
+msgid "Json Activity Data"
+msgstr "Json活动数据"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid ""
+"Just click OK to create the account/journal and finish the upload. If this "
+"was a mistake, hit cancel to abort the upload."
+msgstr ""
+"只需单击“确定”即可创建帐户/日志并完成上传。 如果这是一个错误，请点击取消以中"
+"止上传。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard
+msgid "Kanban Dashboard"
+msgstr "看板仪表板"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard_graph
+msgid "Kanban Dashboard Graph"
+msgstr "看板仪表板图"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Label"
+msgstr "标签"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Last Day"
+msgstr "最后一天"
+
+#. modules: account_tax_unece, l10n_cn_standard_latest, om_account_accountant,
+#. account_qr_code_sepa, accounting_pdf_reports, snailmail_account,
+#. om_account_bank_statement_import
+#: model:ir.model.fields,field_description:account_qr_code_sepa.field_res_partner_bank____last_update
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax____last_update
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template____last_update
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_agedpartnerbalance____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_financial____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_journal____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_partnerledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_tax____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_report_accounting_pdf_reports_report_trialbalance____last_update
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account____last_update
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template____last_update
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_chart_template____last_update
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_tax_group____last_update
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_res_currency____last_update
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year____last_update
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config____last_update
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send____last_update
+#: model:ir.model.fields,field_description:snailmail_account.field_res_company____last_update
+#: model:ir.model.fields,field_description:snailmail_account.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. modules: snailmail_account, om_account_accountant,
+#. om_account_bank_statement_import, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__write_uid
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__write_uid
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__write_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__write_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. modules: snailmail_account, om_account_accountant,
+#. om_account_bank_statement_import, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__write_date
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__write_date
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__write_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__write_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
+msgid "Leave empty to assign the Salesperson of the invoice."
+msgstr "留空以分配发票的销售员。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__level
+msgid "Level"
+msgstr "等级"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_liability0
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_liabilitysum0
+msgid "Liability"
+msgstr "责任"
+
+#. module: l10n_cn_standard_latest
+#: code:addons/l10n_cn_standard_latest/models/account_chart_template.py:0
+#, python-format
+msgid "Liquidity Transfer"
+msgstr "流动性转移"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__fiscalyear_lock_date
+msgid "Lock Date"
+msgstr "锁定日期"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__fiscalyear_lock_date
+msgid "Lock Date for All Users"
+msgstr "所有用户的锁定日期"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__period_lock_date
+#: model:ir.model.fields,field_description:om_account_accountant.field_res_config_settings__period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "非顾问的锁定日期"
+
+#. module: om_account_accountant
+#: model:ir.ui.menu,name:om_account_accountant.menu_action_change_lock_date
+msgid "Lock Dates"
+msgstr "锁定日期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
+msgid "Lock Posted Entries with Hash"
+msgstr "使用哈希锁定发布的条目"
+
+#. module: om_account_accountant
+#: model:ir.actions.act_window,name:om_account_accountant.action_view_change_lock_date
+msgid "Lock your Fiscal Period"
+msgstr "锁定您的会计期间"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Lock your fiscal period"
+msgstr "锁定您的会计期间"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
+msgid "Loss Account"
+msgstr "损失帐户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__1
+msgid "Main Title 1 (bold, underlined)"
+msgstr "主标题1（粗体，下划线）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
+msgid ""
+"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Electronic: Get paid automatically through a payment acquirer by requesting "
+"a transaction on a card saved by the customer when buying or subscribing "
+"online (payment token).\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch "
+"deposit to submit to your bank. When encoding the bank statement in Odoo,you "
+"are suggested to reconcile the transaction with the batch deposit. Enable "
+"this option from the settings."
+msgstr ""
+"手册：以现金、支票或其他方式支付。\n"
+"电子支付：在网上购买或订阅时，通过支付收单机构请求客户保存的卡上的交易（支付"
+"令牌），自动获得支付。\n"
+"批量存款：通过生成提交给银行的批量存款，一次将多张客户支票装箱。在对银行对账"
+"单进行Odoo编码时，建议您将交易与批量存款进行对账。从设置中启用此选项。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
+msgid ""
+"Manual:Pay bill by cash or any other method outside of Odoo.\n"
+"Check:Pay bill by check and print it from Odoo.\n"
+"SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit "
+"to your bank. Enable this option from the settings."
+msgstr ""
+"手册：用现金或其他方式支付账单。\n"
+"支票：用支票付账，并从奥多打印出来。\n"
+"SEPA贷记转账：从您提交给银行的SEPA贷记转账文件中支付账单。从设置中启用此选"
+"项。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: snailmail_account
+#: model:ir.model.fields,field_description:snailmail_account.field_snailmail_confirm_invoice__model_name
+msgid "Model Name"
+msgstr "型号名称"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Move"
+msgstr "移动"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. modules: om_account_accountant, accounting_pdf_reports
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__name
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Name"
+msgstr "名称"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Net"
+msgstr "净利"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__accounting_report__filter_cmp__filter_no
+msgid "No Filters"
+msgstr "无筛选"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "No currency found matching '%s'."
+msgstr "找不到与 '%s' 匹配的货币。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__no_detail
+msgid "No detail"
+msgstr "没有细节"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_change_lock_date__tax_lock_date
+msgid ""
+"No users can edit journal entries related to a tax prior and inclusive of "
+"this date."
+msgstr "任何用户都不能编辑与此日期之前（含）的税款相关的日记账分录。"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_res_config_settings__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr ""
+"任何用户（包括顾问）都不能在此日期之前（含）编辑帐户。例如，将其用于会计年度"
+"锁定。"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_change_lock_date__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking."
+msgstr ""
+"任何用户（包括顾问）都不能在此日期之前（含）编辑帐户。用于会计年度锁定。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__4
+msgid "Normal Text"
+msgstr "普通文本"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid "OK"
+msgstr "OK"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.res_config_settings_view_form
+msgid "Odoo 14 Accounting Excel Reports"
+msgstr "会计Excel报表"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_res_config_settings__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr ""
+"只有具有“顾问”角色的用户才能在此日期之前（含）编辑帐户。例如，在未结会计年度"
+"内使用它进行期间锁定。"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_change_lock_date__period_lock_date
+msgid ""
+"Only users with the Adviser role can edit accounts prior to and inclusive of "
+"this date. Use it for period locking inside an open fiscal year."
+msgstr ""
+"只有具有顾问角色的用户才能在此日期之前（含）编辑帐户。用于在未结会计年度内锁"
+"定期间。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
+msgid "Outbound Payment Methods"
+msgstr "境外支付方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_credit_account_id
+msgid ""
+"Outgoing payments entries triggered by bills/credit notes will be posted on "
+"the Outstanding Payments Account and displayed as blue lines in the bank "
+"reconciliation widget. During the reconciliation process, concerned "
+"transactions will be reconciled with entries on the Outstanding Payments "
+"Account instead of the payable account."
+msgstr ""
+"由账单/信用票据触发的付款条目将发布在未结付款帐户中，并在银行对帐小部件中显示"
+"为蓝线。 在对账过程中，相关交易将与未结付款账户而非应付账款中的条目对账。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_credit_account_id
+msgid "Outstanding Payments Account"
+msgstr "未付款账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_debit_account_id
+msgid "Outstanding Receipts Account"
+msgstr "未收帐款"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__parent_id
+msgid "Parent"
+msgstr "父公司"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account__parent_id
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template__parent_id
+msgid "Parent Chart"
+msgstr "父图表"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account__parent_path
+#: model:ir.model.fields,field_description:l10n_cn_standard_latest.field_account_account_template__parent_path
+msgid "Parent Path"
+msgstr "父路径"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Parent Report"
+msgstr "父报表"
+
+#. modules: snailmail_account, accounting_pdf_reports
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__partner_id
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Partner"
+msgstr "伙伴"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_partner_ledger_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_partnerledger
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_partner_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Partner Ledger"
+msgstr "合作伙伴分类帐"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_partnerledger
+msgid "Partner Ledger Report"
+msgstr "合作伙伴分类帐报表"
+
+#. module: accounting_pdf_reports
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_partner_reports
+msgid "Partner Reports"
+msgstr "合作伙伴报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__result_selection
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__result_selection
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__result_selection
+msgid "Partner's"
+msgstr "合伙人的"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Partner:"
+msgstr "合作伙伴："
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Partners"
+msgstr "合作伙伴"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__supplier
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Payable Accounts"
+msgstr "应付账款"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__period_length
+msgid "Period Length (days)"
+msgstr "周期长度（天）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__pos_payment_method_ids
+msgid "Point of Sale Payment Methods"
+msgstr "销售点付款方式"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__sign__1
+msgid "Preserve balance sign"
+msgstr "保留平衡符号"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+msgid "Print"
+msgstr "打印"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_print_journal__amount_currency
+msgid ""
+"Print Report with the currency column if the currency differs from the "
+"company currency."
+msgstr "如果货币与公司货币不同，则打印带有货币列的报告。"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_profitloss_toreport0
+msgid "Profit (Loss) to report"
+msgstr "要报告的利润（亏损）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
+msgid "Profit Account"
+msgstr "利润帐户"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_profitandloss0
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_report_pl
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report_pl
+msgid "Profit and Loss"
+msgstr "盈利与亏损"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__customer
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__customer
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__customer
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Receivable Accounts"
+msgstr "应收账款"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__customer_supplier
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Receivable and Payable Accounts"
+msgstr "应收账款和应付账款"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__reconciled
+msgid "Reconciled Entries"
+msgstr "对账分录"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Ref"
+msgstr "参考"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Reference:"
+msgstr "参考文献："
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_form
+msgid "Report"
+msgstr "报表"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__name
+msgid "Report Name"
+msgstr "报表名称"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+msgid "Report Options"
+msgstr "报表选项"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Report Type"
+msgstr "报表类型"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__account_report_id
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__account_report
+msgid "Report Value"
+msgstr "报表价值"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__sign__-1
+msgid "Reverse balance sign"
+msgstr "反向平衡符号"
+
+#. module: account_qr_code_sepa
+#: code:addons/account_qr_code_sepa/models/res_bank.py:0
+#, python-format
+msgid "SEPA Credit Transfer QR"
+msgstr "SEPA 学分转账二维码"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信传递错误"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Sale"
+msgstr "销售"
+
+#. module: om_account_accountant
+#: model_terms:ir.ui.view,arch_db:om_account_accountant.view_change_lock_date
+msgid "Save"
+msgstr "保存"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_type_id
+msgid "Schedule Activity"
+msgstr "安排活动"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
+msgid "Secure Sequence"
+msgstr "安全序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
+msgid ""
+"Select 'Sale' for customer invoices journals.\n"
+"Select 'Purchase' for vendor bills journals.\n"
+"Select 'Cash' or 'Bank' for journals that are used in customer or vendor "
+"payments.\n"
+"Select 'General' for miscellaneous operations journals."
+msgstr ""
+"为客户发票日记帐选择“销售”。\n"
+"为供应商账单日记帐选择“采购”。\n"
+"为用于客户或供应商付款的日记帐选择“现金”或“银行”。\n"
+"为杂项操作日志选择“常规”。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Select Files"
+msgstr "选择文件"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_categ_id
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_categ_id
+msgid ""
+"Select the Tax Category Code of the official nomenclature of the United "
+"Nations Economic Commission for Europe (UNECE), DataElement 5305"
+msgstr "选择联合国欧洲经济委员会（UNECE）官方术语的税种代码，数据元素5305"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax__unece_type_id
+#: model:ir.model.fields,help:account_tax_unece.field_account_tax_template__unece_type_id
+msgid ""
+"Select the Tax Type Code of the official nomenclature of the United Nations "
+"Economic Commission for Europe (UNECE), DataElement 5153"
+msgstr "选择联合国欧洲经济委员会（UNECE）官方术语的税种代码，数据元素5153"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
+msgid "Send XML/EDI invoices"
+msgstr "发送XML/EDI发票"
+
+#. module: snailmail_account
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__snailmail_is_letter
+#: model:ir.model.fields,field_description:snailmail_account.field_res_company__invoice_is_snailmail
+#: model:ir.model.fields,field_description:snailmail_account.field_res_config_settings__invoice_is_snailmail
+msgid "Send by Post"
+msgstr "邮寄"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
+msgid ""
+"Send one separate email for each invoice.\n"
+"\n"
+"Any file extension will be accepted.\n"
+"\n"
+"Only PDF and XML files will be interpreted by Odoo"
+msgstr ""
+"为每张发票发送一封单独的电子邮件。\n"
+"\n"
+"将接受任何文件扩展名。\n"
+"\n"
+"本系统只解释PDF和XML文件"
+
+#. modules: om_account_bank_statement_import, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__sequence
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
+msgid "Sequence"
+msgstr "顺序"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
+msgid "Sequence Override Regex"
+msgstr "序列重写正则表达式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
+msgid "Sequence to use to ensure the securisation of data"
+msgstr "用于确保数据安全的序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
+msgid "Set active to false to hide the Journal without removing it."
+msgstr "将 active 设置为 false 以隐藏日志而不删除它。"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model.fields,help:l10n_cn_standard_latest.field_account_tax_group__active
+msgid "Set active to false to hide the tax without removing it."
+msgstr "将active设置为false以隐藏税款而不删除它。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
+msgid "Short Code"
+msgstr "短代码"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
+msgid ""
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+msgstr "用于显示的较短名称。 默认情况下，此日志的日志条目也将使用此前缀命名。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
+msgid "Show journal on dashboard"
+msgstr "在仪表板上显示日记"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__sign
+msgid "Sign on Reports"
+msgstr "登录报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__6
+msgid "Smallest Text"
+msgstr "最小文本"
+
+#. module: snailmail_account
+#: model:ir.model,name:snailmail_account.model_snailmail_confirm_invoice
+msgid "Snailmail Confirm Invoice"
+msgstr "电子邮件确认发票"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__sortby
+msgid "Sort by"
+msgstr "排序依据"
+
+#. module: snailmail_account
+#: model:ir.model.fields,field_description:snailmail_account.field_account_invoice_send__snailmail_cost
+msgid "Stamp(s)"
+msgstr "印章"
+
+#. modules: om_account_accountant, accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_from_cmp
+#: model:ir.model.fields,field_description:om_account_accountant.field_account_fiscal_year__date_from
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,help:om_account_accountant.field_account_fiscal_year__date_from
+msgid "Start Date, included in the fiscal year."
+msgstr "开始日期，包括在会计年度中。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：截止日期已过\n"
+"今天：活动日期是今天\n"
+"计划：未来的活动。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
+msgid "Suspense Account"
+msgstr "暂记帐户"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__target_move
+msgid "Target Moves"
+msgstr "目标移动"
+
+#. modules: account_tax_unece, accounting_pdf_reports
+#: model:ir.model,name:account_tax_unece.model_account_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Tax"
+msgstr "税"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Tax Amount"
+msgstr "税额"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_categ
+msgid "Tax Categories (UNCL 5305)"
+msgstr "税种（《联合国海洋法公约》第5305号）"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Tax Declaration"
+msgstr "纳税申报单"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model,name:l10n_cn_standard_latest.model_account_tax_group
+msgid "Tax Group"
+msgstr "税务组"
+
+#. module: om_account_accountant
+#: model:ir.model.fields,field_description:om_account_accountant.field_change_lock_date__tax_lock_date
+msgid "Tax Lock Date"
+msgstr "税务锁定日期"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_account_tax
+#: model:ir.model,name:accounting_pdf_reports.model_account_tax_report_wizard
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_tax
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Tax Report"
+msgstr "税务报告"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_tax_report
+msgid "Tax Reports"
+msgstr "税务报告"
+
+#. module: account_tax_unece
+#: model:ir.model.fields.selection,name:account_tax_unece.selection__unece_code_list__type__tax_type
+msgid "Tax Types (UNCL 5153)"
+msgstr "税种（《联合国海洋法公约》第5153号）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
+msgid ""
+"Technical field used to enforce complex sequence composition that the system "
+"would normally misunderstand.\n"
+"This is a regex that can include all the following capture groups: prefix1, "
+"year, prefix2, month, prefix3, seq, suffix.\n"
+"The prefix* groups are the separators between the year, month and the actual "
+"increasing sequence number (seq).\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+msgstr ""
+"用于强制执行系统通常会误解的复杂序列组合的技术领域。\n"
+"这是一个正则表达式，可以包含以下所有捕获组：prefix1、year、prefix2、month、"
+"prefix3、seq、suffix。\n"
+"prefix* 组是年、月和实际递增序列号 (seq) 之间的分隔符。\n"
+"例如：^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+
+#. module: l10n_cn_standard_latest
+#: model:ir.model,name:l10n_cn_standard_latest.model_account_account_template
+msgid "Templates for Accounts"
+msgstr "帐户模板"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_account_tax_template
+msgid "Templates for Taxes"
+msgstr "税收模板"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"两个字符的 ISO 国家/地区代码。\n"
+"您可以使用此字段进行快速搜索。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid ""
+"The account of the statement you are uploading is not yet recorded in Odoo. "
+"In order to proceed with the upload, you need to create a bank journal for "
+"this account."
+msgstr ""
+"您上传的对账单账户尚未记录在 Odoo 中。 为了继续上传，您需要为此帐户创建银行日"
+"记帐。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "The account of this statement (%s) is not the same as the journal (%s)."
+msgstr "此语句的帐户 (%s) 与日记帐 (%s) 不同。"
+
+#. module: account_qr_code_sepa
+#: code:addons/account_qr_code_sepa/models/res_bank.py:0
+#, python-format
+msgid ""
+"The account receiving the payment must have an account holder name or "
+"partner name set."
+msgstr "接收付款的帐户必须设置帐户持有人名称或合作伙伴名称。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"The currency of the bank statement (%s) is not the same as the currency of "
+"the journal (%s)."
+msgstr "银行对帐单的货币 (%s) 与日记帐的货币 (%s) 不同。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
+msgid "The currency used to enter statement"
+msgstr "用于输入语句的货币"
+
+#. module: om_account_accountant
+#: code:addons/om_account_accountant/models/account_fiscal_year.py:0
+#, python-format
+msgid "The ending date must not be prior to the starting date."
+msgstr "结束日期不能早于开始日期。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "This file doesn't contain any statement for account %s."
+msgstr "此文件不包含帐户 %s 的任何语句。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "This file doesn't contain any transaction for account %s."
+msgstr "此文件不包含帐户 %s 的任何交易。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_accounting_report__label_filter
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr "此标签将显示在报告上，以显示为给定比较过滤器计算的余额。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_accounting_report__debit_credit
+msgid ""
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
+"doing a comparison."
+msgstr ""
+"此选项可让您获得有关余额计算方式的更多详细信息。 因为它占用空间，所以我们不允"
+"许在进行比较时使用它。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__2
+msgid "Title 2 (bold)"
+msgstr "标题2（粗体）"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__3
+msgid "Title 3 (bold, smaller)"
+msgstr "标题3（粗体，小体）"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Total"
+msgstr "合计"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_balance_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_trial_balance
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_general_balance_report
+msgid "Trial Balance"
+msgstr "试算表"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_balance_report
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_trialbalance
+msgid "Trial Balance Report"
+msgstr "试算平衡报告"
+
+#. modules: account_tax_unece, om_account_bank_statement_import,
+#. accounting_pdf_reports
+#: model:ir.model.fields,field_description:account_tax_unece.field_unece_code_list__type
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__type
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
+msgid "Type"
+msgstr "类别"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的异常活动的类型。"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_code
+msgid "UNECE Category Code"
+msgstr "UNECE类别代码"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_categ_id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_categ_id
+msgid "UNECE Tax Category"
+msgstr "UNECE税种"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_id
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax_template__unece_type_id
+msgid "UNECE Tax Type"
+msgstr "UNECE税种"
+
+#. module: account_tax_unece
+#: model:ir.model.fields,field_description:account_tax_unece.field_account_tax__unece_type_code
+msgid "UNECE Type Code"
+msgstr "UNECE类型代码"
+
+#. module: account_tax_unece
+#: model:ir.model,name:account_tax_unece.model_unece_code_list
+msgid "UNECE nomenclatures"
+msgstr "UNECE术语"
+
+#. module: account_tax_unece
+#: model_terms:ir.ui.view,arch_db:account_tax_unece.view_tax_template_form
+msgid "Unece"
+msgstr "未命名"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/reports/report_aged_partner.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "未知合作伙伴"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息数"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Unsupported File Type"
+msgstr "不支持的文件类型"
+
+#. module: om_account_bank_statement_import
+#: model:ir.actions.act_window,name:om_account_bank_statement_import.action_om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Upload"
+msgstr "上传"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Upload Bank Statements"
+msgstr "上传银行对账单"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
+msgid "Used to order Journals in the dashboard view"
+msgstr "用于在仪表板视图中订购期刊"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
+msgid ""
+"Used to register a loss when the ending balance of a cash register differs "
+"from what the system computes"
+msgstr "用于在收银机的期末余额与系统计算的不同时登记损失"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
+msgid ""
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+msgstr "用于在收银机的期末余额与系统计算的不同时登记利润"
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_0
+msgid "VAT 0%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_10
+msgid "VAT 10%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_13
+msgid "VAT 13%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_3
+msgid "VAT 3%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_6
+msgid "VAT 6%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.group,name:l10n_cn_standard_latest.l10n_cn_tax_group_vat_9
+msgid "VAT 9%"
+msgstr ""
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__sum
+msgid "View"
+msgstr "视图"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
+msgid "Website communication history"
+msgstr "网站通讯记录"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
+msgid "Whether this journal should be displayed on the dashboard or not"
+msgstr "这个期刊是否应该显示在仪表板上"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__amount_currency
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__amount_currency
+msgid "With Currency"
+msgstr "使用货币"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__not_zero
+msgid "With balance is not equal to 0"
+msgstr "余额不等于0"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "With balance not equal to zero"
+msgstr "余额不为零"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__movement
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__movement
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__movement
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "With movements"
+msgstr "有动作的"
+
+#. module: om_account_accountant
+#: code:addons/om_account_accountant/wizard/change_lock_date.py:0
+#, python-format
+msgid "You Are Not Allowed To Perform This Operation"
+msgstr "不允许您执行此操作"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "You already have imported that file."
+msgstr "您已经导入了该文件。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "您可以为每种类型的参考选择不同的模型。 默认的一个是 Odoo 参考。"
+
+#. module: om_account_accountant
+#: code:addons/om_account_accountant/models/account_fiscal_year.py:0
+#, python-format
+msgid ""
+"You can not have an overlap between two fiscal years, please correct the "
+"start and/or end dates of your fiscal years."
+msgstr "两个会计年度不能重叠，请更正会计年度的开始和/或结束日期。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
+msgid ""
+"You can set here the default communication that will appear on customer "
+"invoices, once validated, to help the customer to refer to that particular "
+"invoice when making the payment."
+msgstr ""
+"您可以在此处设置将在客户发票上显示的默认通信，一旦验证，以帮助客户在付款时参"
+"考该特定发票。"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_financial_report__style_overwrite
+msgid ""
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
+"reports hierarchy (auto-computed field 'level')."
+msgstr ""
+"您可以在此处设置希望此记录显示的格式。如果保留自动格式，则将根据财务报告层次"
+"结构（自动计算字段 'level'）进行计算。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "You can upload your bank statement using:"
+msgstr "您可以使用以下方法上传银行对帐单："
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizards/account_general_ledger.py:0
+#, python-format
+msgid "You must define a Start Date"
+msgstr "必须定义开始日期"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizards/aged_partner.py:0
+#, python-format
+msgid "You must set a period length greater than 0."
+msgstr "必须将句点长度设置为大于0。"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizards/aged_partner.py:0
+#, python-format
+msgid "You must set a start date."
+msgstr "必须设置开始日期。"
+
+#. module: snailmail_account
+#: model_terms:ir.ui.view,arch_db:snailmail_account.account_invoice_send_inherit_account_wizard_form
+msgid "invoices"
+msgstr "发票"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+msgid "or"
+msgstr "或"
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4102
+msgid "一般风险准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn0_p
+msgid "不计进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn0_s
+msgid "不计销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2711
+msgid "专项应付款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6401
+msgid "主营业务成本"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6001
+msgid "主营业务收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1111
+msgid "买入返售金融资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2101
+msgid "交易性金融负债"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1101
+msgid "交易性金融资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2314
+msgid "代理业务负债"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1321
+msgid "代理业务资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2311
+msgid "代理买卖证券款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1311
+msgid "代理兑付证券"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2313
+msgid "代理兑付证券款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2312
+msgid "代理承销证券款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6901
+msgid "以前年度损益调整"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2611
+msgid "保户储金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6521
+msgid "保户红利支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6031
+msgid "保费收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag24
+msgid "保险专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2602
+msgid "保险责任准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6101
+msgid "公允价值变动损益"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1623
+msgid "公益性生物资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_3
+msgid "共有类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6402
+msgid "其他业务成本"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6051
+msgid "其他业务收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2241
+msgid "其他应付款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1221
+msgid "其他应收款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1012
+msgid "其他货币资金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag26
+msgid "农业专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_4
+msgid "减免税款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_8
+msgid "出口抵减内销产品应纳税额"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_6
+msgid "出口退税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6542
+msgid "分保费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6541
+msgid "分出保费"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6411
+msgid "利息支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6011
+msgid "利息收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4104
+msgid "利润分配"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5101
+msgid "制造费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5201
+msgid "劳务成本"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6604
+msgid "勘探费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2111
+msgid "卖出回购金融资产款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1403
+msgid "原材料"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1406
+msgid "发出商品"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1503
+msgid "可供出售金融资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2012
+msgid "同业存放"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2004
+msgid "向中央银行借款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2011
+msgid "吸收存款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1411
+msgid "周转材料"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1407
+msgid "商品进销差价"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1711
+msgid "商誉"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1601
+msgid "固定资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1603
+msgid "固定资产减值准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1606
+msgid "固定资产清理"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1604
+msgid "在建工程"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1402
+msgid "在途物资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1231
+msgid "坏账准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn13_p
+msgid "增值税13%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn13_s
+msgid "增值税13%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn16_p
+msgid "增值税16%进项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag_cn16_s
+msgid "增值税16%销项税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_purchase_0
+msgid "增值税进项税0%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_10
+msgid "增值税进项税10%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_13
+msgid "增值税进项税13%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_6
+msgid "增值税进项税6%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_purchase_excluded_9
+msgid "增值税进项税9%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_0
+msgid "增值税销项税0%"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_included_10
+msgid "增值税销项税10%(价内税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_10
+msgid "增值税销项税10%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_included_13
+msgid "增值税销项税13%(价内税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_13
+msgid "增值税销项税13%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_included_3
+msgid "增值税销项税3%(价内税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_3
+msgid "增值税销项税3%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_included_6
+msgid "增值税销项税6%(价内税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_6
+msgid "增值税销项税6%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_included_9
+msgid "增值税销项税9%(价内税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.tax.template,description:l10n_cn_standard_latest.l10n_cn_standard_sale_excluded_9
+msgid "增值税销项税9%(价外税)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_3201
+msgid "套期工具"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1408
+msgid "委托加工物资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2002
+msgid "存入保证金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1031
+msgid "存出保证金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1541
+msgid "存出资本保证金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1003
+msgid "存放中央银行款项"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1011
+msgid "存放同业"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1471
+msgid "存货跌价准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4001
+msgid "实收资本"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5401
+msgid "工程施工"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1605
+msgid "工程物资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5402
+msgid "工程结算"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_2
+msgid "已交税金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1405
+msgid "库存商品"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4201
+msgid "库存股"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_12
+msgid "应交个人所得税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_10
+msgid "应交土地使用税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_7
+msgid "应交土地增值税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_8
+msgid "应交城市维护建设税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1
+msgid "应交增值税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_9
+msgid "应交房产税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_6
+msgid "应交所得税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_4
+msgid "应交消费税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221
+msgid "应交税费"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_3
+msgid "应交营业税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_5
+msgid "应交资源税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_11
+msgid "应交车船使用税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2251
+msgid "应付保单红利"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2502
+msgid "应付债券"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2261
+msgid "应付分保账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2231
+msgid "应付利息"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2201
+msgid "应付票据"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2211
+msgid "应付职工薪酬"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2232
+msgid "应付股利"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2202
+msgid "应付账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1201
+msgid "应收代位追偿款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1212
+msgid "应收分保合同准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1211
+msgid "应收分保账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1132
+msgid "应收利息"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1121
+msgid "应收票据"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1131
+msgid "应收股利"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1122
+msgid "应收账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1124
+msgid "应收账款(PoS)"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag30
+msgid "建造承包商专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1901
+msgid "待处理财产损溢"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_5
+msgid "成本类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6801
+msgid "所得税费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_4
+msgid "所有者权益类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6421
+msgid "手续费及佣金支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6021
+msgid "手续费及佣金收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1521
+msgid "投资性房地产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6111
+msgid "投资收益"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1441
+msgid "抵债资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2003
+msgid "拆入资金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1302
+msgid "拆出资金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1501
+msgid "持有至到期投资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1502
+msgid "持有至到期投资减值准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1451
+msgid "损余物资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_6
+msgid "损益类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6502
+msgid "提取保险责任准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6501
+msgid "提取未到期责任准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6201
+msgid "摊回保险责任准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6203
+msgid "摊回分保费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6202
+msgid "摊回赔付支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1701
+msgid "无形资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1703
+msgid "无形资产减值准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_2
+msgid "未交增值税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2601
+msgid "未到期责任准备金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1532
+msgid "未实现融资收益"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1611
+msgid "未担保余值"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2702
+msgid "未确认融资费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4103
+msgid "本年利润"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5403
+msgid "机械作业"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1404
+msgid "材料成本差异"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1401
+msgid "材料采购"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6061
+msgid "汇兑损益"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1631
+msgid "油气资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.l10n_chart_china_standard_business_latest_liquidity_transfer
+msgid "流动性转账"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1421
+msgid "消耗性生物资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_3001
+msgid "清算资金往来"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2621
+msgid "独立账户负债"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1821
+msgid "独立账户资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1621
+msgid "生产性生物资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1622
+msgid "生产性生物资产累计折旧"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5001
+msgid "生产成本"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4101
+msgid "盈余公积"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2001
+msgid "短期借款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag28
+msgid "石油天然气开采专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_5301
+msgid "研发支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag27
+msgid "租赁专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6041
+msgid "租赁收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6403
+msgid "税金及附加"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6602
+msgid "管理费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1602
+msgid "累计折旧"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1632
+msgid "累计折耗"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1702
+msgid "累计摊销"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1021
+msgid "结算备付金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6711
+msgid "营业外支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6301
+msgid "营业外收入"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1461
+msgid "融资租赁资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_3101
+msgid "衍生工具"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_3202
+msgid "被套期项目"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag22
+msgid "证券专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_2
+msgid "负债类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6603
+msgid "财务费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_3002
+msgid "货币兑换"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2021
+msgid "贴现负债"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1301
+msgid "贴现资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1431
+msgid "贵金属"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1303
+msgid "贷款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1304
+msgid "贷款损失准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6701
+msgid "资产减值损失"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.group,name:l10n_cn_standard_latest.account_group_1
+msgid "资产类"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_4002
+msgid "资本公积"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6511
+msgid "赔付支出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_9
+msgid "转出多交增值税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_3
+msgid "转出未交增值税"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_1
+msgid "进项税额"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_7
+msgid "进项税额转出"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6531
+msgid "退保金"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2901
+msgid "递延所得税负债"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1811
+msgid "递延所得税资产"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2401
+msgid "递延收益"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag23
+msgid "金融共用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag21
+msgid "银行专用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag25
+msgid "银行和保险共用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.tag,name:l10n_cn_standard_latest.tag29
+msgid "银行和证券共用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_6601
+msgid "销售费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2221_1_5
+msgid "销项税额"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2501
+msgid "长期借款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2701
+msgid "长期应付款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1531
+msgid "长期应收款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1801
+msgid "长期待摊费用"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1511
+msgid "长期股权投资"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1512
+msgid "长期股权投资减值准备"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_1123
+msgid "预付账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2203
+msgid "预收账款"
+msgstr ""
+
+#. module: l10n_cn_standard_latest
+#: model:account.account.template,name:l10n_cn_standard_latest.account_2801
+msgid "预计负债"
+msgstr ""

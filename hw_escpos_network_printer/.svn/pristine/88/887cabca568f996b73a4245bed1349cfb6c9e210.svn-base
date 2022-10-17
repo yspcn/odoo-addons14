@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="pos_config_view_form_inherit_network_printer" model="ir.ui.view">
+        <field name="name">pos.config.form.inherit.network.printer</field>
+        <field name="model">pos.config</field>
+        <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='other_devices']//div[hasclass('o_setting_right_pane')]" position="inside">
+                <div class="content-group" attrs="{'invisible' : [('other_devices', '=', False)]}">
+                    <u><h6 class="mt16">IP Network ESC/POS Receipt Printer</h6></u>
+                    <div class="row">
+                        <label string="Printer IP:Port" for="iface_network_printer_ip_address" class="col-lg-3 o_light_label"/>
+                        <field name="iface_network_printer_ip_address" placeholder="192.168.0.1:9100"/>
+                    </div>
+                    <div class="row" attrs="{'invisible': [('iface_network_printer_ip_address', 'in', [False, ''])]}">
+                        <label string="Cashdrawer" for="iface_cashdrawer" class="col-lg-3 o_light_label"/>
+                        <field name="iface_cashdrawer"/>
+                    </div> 
+                </div>
+                <div role="alert" class="alert alert-warning" attrs="{'invisible': ['|', '|', ('iface_print_via_proxy', '!=', True), ('other_devices', '!=', True), ('iface_network_printer_ip_address', 'in', [False, ''])]}">
+                    The Network ESC/POS receipt printer will be used instead of the receipt printer connected to the IoT Box.
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

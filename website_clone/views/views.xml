@@ -1,0 +1,22 @@
+<odoo>
+  <data>
+
+
+    <record id="customer_last_name" model="ir.ui.view">
+        <field name="name">customer.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="last_name" />
+
+
+            </field>
+
+
+        </field>
+    </record>
+
+  </data>
+</odoo>

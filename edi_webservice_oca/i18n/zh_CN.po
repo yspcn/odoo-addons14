@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* edi_webservice_oca
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: edi_webservice_oca
+#: model:ir.model.fields,field_description:edi_webservice_oca.field_edi_backend__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: edi_webservice_oca
+#: model:ir.model,name:edi_webservice_oca.model_edi_backend
+msgid "EDI Backend"
+msgstr "EDI 后端"
+
+#. module: edi_webservice_oca
+#: model:ir.model.fields,field_description:edi_webservice_oca.field_edi_backend__id
+msgid "ID"
+msgstr "ID"
+
+#. module: edi_webservice_oca
+#: model:ir.model.fields,field_description:edi_webservice_oca.field_edi_backend____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: edi_webservice_oca
+#: model:ir.model.fields,field_description:edi_webservice_oca.field_edi_backend__webservice_backend_id
+msgid "Webservice Backend"
+msgstr ""

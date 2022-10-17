@@ -1,0 +1,958 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_bank_statement_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210723\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-26 03:32+0000\n"
+"PO-Revision-Date: 2021-07-26 11:56+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: om_account_bank_statement_import
+#. openerp-web
+#: code:addons/om_account_bank_statement_import/static/src/js/account_bank_statement_import.js:0
+#, python-format
+msgid " Import Template for Bank Statements"
+msgstr " 银行对账单的导入模板"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d 个数据已被导入并被忽略。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 个交易已被导入并被忽略。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.constraint,message:om_account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
+msgid "A bank account transactions can be imported only once !"
+msgstr "一个银行账户交易只能导入一次！"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_partner_id
+msgid "Account Holder"
+msgstr "账户持有人"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_acc_number
+msgid "Account Number"
+msgstr "帐号"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
+msgid "Action Needed"
+msgstr "必须操作"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
+msgid "Active"
+msgstr "活跃"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动例外装饰"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_note
+msgid "Activity Summary"
+msgstr "活动摘要"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
+msgid "Activity User"
+msgstr "活动用户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_type_id
+msgid ""
+"Activity will be automatically scheduled on payment due date, improving "
+"collection process."
+msgstr "活动将在付款到期日自动安排，从而改进收款流程。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
+msgid "Alias Name"
+msgstr "别名"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_domain
+msgid "Alias domain"
+msgstr "别名域"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type_control_ids
+msgid "Allowed account types"
+msgstr "允许的帐户类型"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__account_control_ids
+msgid "Allowed accounts"
+msgstr "允许的帐户"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Already imported items"
+msgstr "已导入项目"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_inbound
+msgid "At Least One Inbound"
+msgstr "至少一个入站"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_outbound
+msgid "At Least One Outbound"
+msgstr "至少一个出站"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
+#, python-format
+msgid "Bank"
+msgstr "银行"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_account_id
+msgid "Bank Account"
+msgstr "银行账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
+msgid "Bank Feeds"
+msgstr "银行提要"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid "Bank Journal Name"
+msgstr "银行日记帐名称"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "银行对账单行"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_setup_bank_manual_config
+msgid "Bank setup manual config"
+msgstr "银行设置手册配置"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
+msgid ""
+"Bank statements transactions will be posted on the suspense account until "
+"the final reconciliation allowing finding the right account."
+msgstr "银行对帐单交易将过帐到暂记帐户，直到最终对帐允许找到正确的帐户。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Cancel"
+msgstr "取消"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"Cannot find in which journal import this statement. Please manually select a "
+"journal."
+msgstr "找不到在哪个期刊中导入此语句。 请手动选择期刊。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
+msgid ""
+"Check this box if you don't want to share the same sequence for invoices and "
+"credit notes made from this journal"
+msgstr "如果您不想共享从此日记帐制作的发票和贷项通知单的相同顺序，请选中此框"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__color
+msgid "Color Index"
+msgstr "颜色索引"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
+msgid "Communication Standard"
+msgstr "通讯标准"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
+msgid "Communication Type"
+msgstr "通讯方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_id
+msgid "Company"
+msgstr "单位"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_id
+msgid "Company related to this journal"
+msgstr "与本刊相关的公司"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
+msgid "Compatible Edi"
+msgstr "兼容 Edi"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file ?"
+msgstr ""
+"无法理解指定的文件。\n"
+"您是否安装了支持这种类型文件的模块？"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__country_code
+msgid "Country Code"
+msgstr "国家代码"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__create_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__create_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
+msgid "Currency"
+msgstr "货币"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
+msgid "Dedicated Credit Note Sequence"
+msgstr "专用信用票据序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_account_id
+msgid "Default Account"
+msgstr "默认账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_account_type
+msgid "Default Account Type"
+msgstr "默认账户类型"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
+msgid "Defines how the bank statements will be registered"
+msgstr "定义银行对账单的登记方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal__display_name
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
+msgid "EDI format that support moves in this journal"
+msgstr "本期刊支持移动的EDI格式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
+msgid "Electronic invoicing"
+msgstr "电子发票"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
+msgid "Email Alias"
+msgstr "邮件别名"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__attachment_ids
+msgid "Files"
+msgstr "文件"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_follower_ids
+msgid "Followers"
+msgstr "关注"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者（频道）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体真棒图标，例如 fa-tasks"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import__attachment_ids
+msgid ""
+"Get you bank statements in electronic format from your bank and select them "
+"here."
+msgstr "从您的银行获取电子格式的银行对账单并在此处选择。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal__id
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config__id
+msgid "ID"
+msgstr ""
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新邮件。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件有传递错误。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"If it contains transactions for more than one account, it must be imported "
+"on each of them."
+msgstr "如果它包含多个账户的交易，则必须在每个账户上导入。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
+msgid ""
+"If ticked, the accounting entry or invoice receives a hash as soon as it is "
+"posted and cannot be modified anymore."
+msgstr "如果勾选，会计分录或发票一过帐就会收到一个哈希值，并且不能再修改。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_journal.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+#, python-format
+msgid "Import"
+msgstr "导入"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_import
+msgid "Import Bank Statement"
+msgstr "导入银行对账单"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line__unique_import_id
+msgid "Import ID"
+msgstr "导入 ID"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+msgid "Import Statement"
+msgstr "导入声明"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
+msgid "Inbound Payment Methods"
+msgstr "入库付款方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_debit_account_id
+msgid ""
+"Incoming payments entries triggered by invoices/refunds will be posted on "
+"the Outstanding Receipts Account and displayed as blue lines in the bank "
+"reconciliation widget. During the reconciliation process, concerned "
+"transactions will be reconciled with entries on the Outstanding Receipts "
+"Account instead of the receivable account."
+msgstr ""
+"由发票/退款触发的收款条目将发布在未结收款帐户中，并在银行对帐小部件中显示为蓝"
+"线。 在对账过程中，相关交易将与未收账款账户中的条目对账，而不是应收账款账户。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.actions.act_window,name:om_account_bank_statement_import.install_more_import_formats_action
+msgid "Install Import Format"
+msgstr "安装导入格式"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Invalid file!"
+msgstr "无效的文件！"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
+msgid "It creates draft invoices and bills by sending an email."
+msgstr "它通过发送电子邮件来创建草稿发票和账单。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_journal
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
+msgid "Journal"
+msgstr "分类账"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+#, python-format
+msgid "Journal Creation"
+msgstr "期刊创建"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model,name:om_account_bank_statement_import.model_account_bank_statement_import_journal_creation
+msgid "Journal Creation on Bank Statement Import"
+msgstr "银行对账单导入的日记帐创建"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_group_ids
+msgid "Journal Groups"
+msgstr "期刊组"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__name
+msgid "Journal Name"
+msgstr "期刊名称"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__json_activity_data
+msgid "Json Activity Data"
+msgstr "Json活动数据"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid ""
+"Just click OK to create the account/journal and finish the upload. If this "
+"was a mistake, hit cancel to abort the upload."
+msgstr ""
+"只需单击“确定”即可创建帐户/日志并完成上传。 如果这是一个错误，请点击取消以中"
+"止上传。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard
+msgid "Kanban Dashboard"
+msgstr "看板仪表板"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard_graph
+msgid "Kanban Dashboard Graph"
+msgstr "看板仪表板图"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_line____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_journal____last_update
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_setup_bank_manual_config____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__write_uid
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import__write_date
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
+msgid "Leave empty to assign the Salesperson of the invoice."
+msgstr "留空以分配发票的销售员。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
+msgid "Lock Posted Entries with Hash"
+msgstr "使用哈希锁定发布的条目"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
+msgid "Loss Account"
+msgstr "损失帐户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
+msgid ""
+"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Electronic: Get paid automatically through a payment acquirer by requesting "
+"a transaction on a card saved by the customer when buying or subscribing "
+"online (payment token).\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch "
+"deposit to submit to your bank. When encoding the bank statement in Odoo,you "
+"are suggested to reconcile the transaction with the batch deposit. Enable "
+"this option from the settings."
+msgstr ""
+"手册：以现金、支票或其他方式支付。\n"
+"电子支付：在网上购买或订阅时，通过支付收单机构请求客户保存的卡上的交易（支付"
+"令牌），自动获得支付。\n"
+"批量存款：通过生成提交给银行的批量存款，一次将多张客户支票装箱。在对银行对账"
+"单进行Odoo编码时，建议您将交易与批量存款进行对账。从设置中启用此选项。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
+msgid ""
+"Manual:Pay bill by cash or any other method outside of Odoo.\n"
+"Check:Pay bill by check and print it from Odoo.\n"
+"SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit "
+"to your bank. Enable this option from the settings."
+msgstr ""
+"手册：用现金或其他方式支付账单。\n"
+"支票：用支票付账，并从奥多打印出来。\n"
+"SEPA贷记转账：从您提交给银行的SEPA贷记转账文件中支付账单。从设置中启用此选"
+"项。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "No currency found matching '%s'."
+msgstr "找不到与 '%s' 匹配的货币。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid "OK"
+msgstr "OK"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
+msgid "Outbound Payment Methods"
+msgstr "境外支付方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_credit_account_id
+msgid ""
+"Outgoing payments entries triggered by bills/credit notes will be posted on "
+"the Outstanding Payments Account and displayed as blue lines in the bank "
+"reconciliation widget. During the reconciliation process, concerned "
+"transactions will be reconciled with entries on the Outstanding Payments "
+"Account instead of the payable account."
+msgstr ""
+"由账单/信用票据触发的付款条目将发布在未结付款帐户中，并在银行对帐小部件中显示"
+"为蓝线。 在对账过程中，相关交易将与未结付款账户而非应付账款中的条目对账。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_credit_account_id
+msgid "Outstanding Payments Account"
+msgstr "未付款账户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__payment_debit_account_id
+msgid "Outstanding Receipts Account"
+msgstr "未收帐款"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__pos_payment_method_ids
+msgid "Point of Sale Payment Methods"
+msgstr "销售点付款方式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
+msgid "Profit Account"
+msgstr "利润帐户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信传递错误"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_type_id
+msgid "Schedule Activity"
+msgstr "安排活动"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
+msgid "Secure Sequence"
+msgstr "安全序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
+msgid ""
+"Select 'Sale' for customer invoices journals.\n"
+"Select 'Purchase' for vendor bills journals.\n"
+"Select 'Cash' or 'Bank' for journals that are used in customer or vendor "
+"payments.\n"
+"Select 'General' for miscellaneous operations journals."
+msgstr ""
+"为客户发票日记帐选择“销售”。\n"
+"为供应商账单日记帐选择“采购”。\n"
+"为用于客户或供应商付款的日记帐选择“现金”或“银行”。\n"
+"为杂项操作日志选择“常规”。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Select Files"
+msgstr "选择文件"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
+msgid "Send XML/EDI invoices"
+msgstr "发送XML/EDI发票"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
+msgid ""
+"Send one separate email for each invoice.\n"
+"\n"
+"Any file extension will be accepted.\n"
+"\n"
+"Only PDF and XML files will be interpreted by Odoo"
+msgstr ""
+"为每张发票发送一封单独的电子邮件。\n"
+"\n"
+"将接受任何文件扩展名。\n"
+"\n"
+"本系统只解释PDF和XML文件"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
+msgid "Sequence"
+msgstr "顺序"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
+msgid "Sequence Override Regex"
+msgstr "序列重写正则表达式"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
+msgid "Sequence to use to ensure the securisation of data"
+msgstr "用于确保数据安全的序列"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
+msgid "Set active to false to hide the Journal without removing it."
+msgstr "将 active 设置为 false 以隐藏日志而不删除它。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
+msgid "Short Code"
+msgstr "短代码"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
+msgid ""
+"Shorter name used for display. The journal entries of this journal will also "
+"be named using this prefix by default."
+msgstr "用于显示的较短名称。 默认情况下，此日志的日志条目也将使用此前缀命名。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
+msgid "Show journal on dashboard"
+msgstr "在仪表板上显示日记"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：截止日期已过\n"
+"今天：活动日期是今天\n"
+"计划：未来的活动。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
+msgid "Suspense Account"
+msgstr "暂记帐户"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
+msgid ""
+"Technical field used to enforce complex sequence composition that the system "
+"would normally misunderstand.\n"
+"This is a regex that can include all the following capture groups: prefix1, "
+"year, prefix2, month, prefix3, seq, suffix.\n"
+"The prefix* groups are the separators between the year, month and the actual "
+"increasing sequence number (seq).\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+msgstr ""
+"用于强制执行系统通常会误解的复杂序列组合的技术领域。\n"
+"这是一个正则表达式，可以包含以下所有捕获组：prefix1、year、prefix2、month、"
+"prefix3、seq、suffix。\n"
+"prefix* 组是年、月和实际递增序列号 (seq) 之间的分隔符。\n"
+"例如：^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?"
+"P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"两个字符的 ISO 国家/地区代码。\n"
+"您可以使用此字段进行快速搜索。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_journal_creation_view
+msgid ""
+"The account of the statement you are uploading is not yet recorded in Odoo. "
+"In order to proceed with the upload, you need to create a bank journal for "
+"this account."
+msgstr ""
+"您上传的对账单账户尚未记录在 Odoo 中。 为了继续上传，您需要为此帐户创建银行日"
+"记帐。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "The account of this statement (%s) is not the same as the journal (%s)."
+msgstr "此语句的帐户 (%s) 与日记帐 (%s) 不同。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid ""
+"The currency of the bank statement (%s) is not the same as the currency of "
+"the journal (%s)."
+msgstr "银行对帐单的货币 (%s) 与日记帐的货币 (%s) 不同。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
+msgid "The currency used to enter statement"
+msgstr "用于输入语句的货币"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "This file doesn't contain any statement for account %s."
+msgstr "此文件不包含帐户 %s 的任何语句。"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "This file doesn't contain any transaction for account %s."
+msgstr "此文件不包含帐户 %s 的任何交易。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
+msgid "Type"
+msgstr "类别"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的异常活动的类型。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息数"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "Unsupported File Type"
+msgstr "不支持的文件类型"
+
+#. module: om_account_bank_statement_import
+#: model:ir.actions.act_window,name:om_account_bank_statement_import.action_om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Upload"
+msgstr "上传"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "Upload Bank Statements"
+msgstr "上传银行对账单"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
+msgid "Used to order Journals in the dashboard view"
+msgstr "用于在仪表板视图中订购期刊"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
+msgid ""
+"Used to register a loss when the ending balance of a cash register differs "
+"from what the system computes"
+msgstr "用于在收银机的期末余额与系统计算的不同时登记损失"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
+msgid ""
+"Used to register a profit when the ending balance of a cash register differs "
+"from what the system computes"
+msgstr "用于在收银机的期末余额与系统计算的不同时登记利润"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,field_description:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
+msgid "Website communication history"
+msgstr "网站通讯记录"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
+msgid "Whether this journal should be displayed on the dashboard or not"
+msgstr "这个期刊是否应该显示在仪表板上"
+
+#. module: om_account_bank_statement_import
+#: code:addons/om_account_bank_statement_import/models/account_bank_statement_import.py:0
+#, python-format
+msgid "You already have imported that file."
+msgstr "您已经导入了该文件。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
+msgid ""
+"You can choose different models for each type of reference. The default one "
+"is the Odoo reference."
+msgstr "您可以为每种类型的参考选择不同的模型。 默认的一个是 Odoo 参考。"
+
+#. module: om_account_bank_statement_import
+#: model:ir.model.fields,help:om_account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
+msgid ""
+"You can set here the default communication that will appear on customer "
+"invoices, once validated, to help the customer to refer to that particular "
+"invoice when making the payment."
+msgstr ""
+"您可以在此处设置将在客户发票上显示的默认通信，一旦验证，以帮助客户在付款时参"
+"考该特定发票。"
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.om_account_bank_statement_import_view
+msgid "You can upload your bank statement using:"
+msgstr "您可以使用以下方法上传银行对帐单："
+
+#. module: om_account_bank_statement_import
+#: model_terms:ir.ui.view,arch_db:om_account_bank_statement_import.journal_dashboard_view_inherit
+msgid "or"
+msgstr ""

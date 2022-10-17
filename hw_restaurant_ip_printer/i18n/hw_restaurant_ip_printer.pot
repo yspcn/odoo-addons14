@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hw_restaurant_ip_printer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-05 01:46+0000\n"
+"PO-Revision-Date: 2020-11-05 01:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,field_description:hw_restaurant_ip_printer.field_restaurant_printer__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,field_description:hw_restaurant_ip_printer.field_restaurant_printer__restaurant_escpos_printer_ip
+msgid "ESC/POS Printer IP Address"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,field_description:hw_restaurant_ip_printer.field_restaurant_printer__id
+msgid "ID"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,help:hw_restaurant_ip_printer.field_restaurant_printer__restaurant_escpos_printer_ip
+msgid "IP address of an ESC/POS kitchen/restaurnat/bar order printer."
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,field_description:hw_restaurant_ip_printer.field_restaurant_printer____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields,field_description:hw_restaurant_ip_printer.field_restaurant_printer__printer_type
+msgid "Printer Type"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model,name:hw_restaurant_ip_printer.model_restaurant_printer
+msgid "Restaurant Printer"
+msgstr ""
+
+#. module: hw_restaurant_ip_printer
+#: model:ir.model.fields.selection,name:hw_restaurant_ip_printer.selection__restaurant_printer__printer_type__escpos_ip_printer
+msgid "Use an ESC/POS IP printer"
+msgstr ""

@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_import_so
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-12 05:01+0000\n"
+"PO-Revision-Date: 2021-07-29 17:09+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: sh_import_so
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "<i class=\"fa fa-download\"/> CSV file"
+msgstr "<i class=\"fa fa-download\"/> CSV 文件"
+
+#. module: sh_import_so
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "<i class=\"fa fa-download\"/> Excel file"
+msgstr "<i class=\"fa fa-download\"/> Excel 文件"
+
+#. module: sh_import_so
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "<strong>Download Sample:</strong>"
+msgstr "<strong>下载示例模板：</strong>"
+
+#. module: sh_import_so
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "Apply"
+msgstr "应用"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__order_no_type__as_per_sheet
+msgid "As per sheet"
+msgstr "按表"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__order_no_type__auto
+msgid "Auto"
+msgstr "自动"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__is_confirm_sale
+msgid "Auto Confirm Sale?"
+msgstr "自动确认销售？"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__product_by__barcode
+msgid "Barcode"
+msgstr "条形码"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__import_type__csv
+msgid "CSV File"
+msgstr "CSV 文件"
+
+#. module: sh_import_so
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__is_create_customer
+msgid "Create Customer?"
+msgstr "创建客户？"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__import_type__excel
+msgid "Excel File"
+msgstr "Excel 文件"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__file
+msgid "File"
+msgstr "文件"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__import_type
+msgid "Import File Type"
+msgstr "导入文件类型"
+
+#. module: sh_import_so
+#: model:ir.actions.act_window,name:sh_import_so.sh_import_so_action
+#: model:ir.ui.menu,name:sh_import_so.sh_import_so_menu
+#: model:res.groups,name:sh_import_so.sh_import_so_group
+#: model_terms:ir.ui.view,arch_db:sh_import_so.sh_import_so_wizard
+msgid "Import Sale Order"
+msgstr "导入销售订单"
+
+#. module: sh_import_so
+#: model:ir.model,name:sh_import_so.model_import_so_wizard
+msgid "Import Sale Order Wizard"
+msgstr "导入销售订单向导"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__product_by__int_ref
+msgid "Internal Reference"
+msgstr "内部参考"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: sh_import_so
+#: model:ir.model.fields.selection,name:sh_import_so.selection__import_so_wizard__product_by__name
+msgid "Name"
+msgstr "名称"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__product_by
+msgid "Product By"
+msgstr "按产品"
+
+#. module: sh_import_so
+#: model:ir.model.fields,field_description:sh_import_so.field_import_so_wizard__order_no_type
+msgid "Quotation/Order Number"
+msgstr "报价单/订单号"
+
+#. module: sh_import_so
+#: code:addons/sh_import_so/wizard/import_so_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv file does not match with our format "
+msgstr "很抱歉，您的csv文件与我们的格式不匹配 "
+
+#. module: sh_import_so
+#: code:addons/sh_import_so/wizard/import_so_wizard.py:0
+#, python-format
+msgid "Sorry, Your excel file does not match with our format "
+msgstr "很抱歉，您的excel文件与我们的格式不匹配 "

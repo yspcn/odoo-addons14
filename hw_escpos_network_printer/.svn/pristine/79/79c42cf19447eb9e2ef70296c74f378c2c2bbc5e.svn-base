@@ -1,0 +1,114 @@
+<section class="oe_container oe_dark">
+    <div class="mt32 mb32">
+        <div class="oe_slogan"><span class="label label-primary orders_label_text_align"> <span class="fa fa-star-o fa-spin"/> Latest version: 14.0.0.1.5 released on Sat, 05 Jun 2021 23:46:09 +0300
+                </span></div>
+        <div class="col-md-12 float-left">
+            <h2 class="oe_slogan">Drivers for IP network ESC/POS Printer for Point of sale</h2>
+            <h3 class="oe_slogan"> Allows you to connect and use your IP based ESC/POS printer in Odoo Point of Sale</h3>
+            <h3 class="oe_slogan"> With this App installed you will not require IoT Box to print POS tickets and receipts</h3>
+            <h3 class="oe_slogan"> Simply install this App and connect your POS printer to same network as your Odoo POS</h3>
+            <h3 class="oe_slogan"> Configure the <code>IP address</code> and <code>port</code> of the printer in Point of sale configuration menu</h3>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container mt32">
+        <div class="col-md-12 float-left mb32">
+            <div class="col-md-4 float-left">
+                <div class="text-center">
+                    <div class="dt-iconboxes layout-6">
+                        <span class="fa-stack fa-2x"><span class="fa fa-sitemap fa-stack-1x"/><i class="fa fa-ban fa-stack-2x text-danger"></i></span>
+                            <h4>No IoT Box Required To Print.</h4>
+                            <div class="dt-iconboxes-text">
+                                <p style="text-align: justify;">
+                                If you do not have a IoT Box kit already and you want to start printing POS receipts, simply install this App. You will not require IoT Box kit to print receipts. The App will install drivers and utilities for printing POS receipts using IP based ESC/POS printer.
+                                </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 float-left">
+                <div class="text-center">
+                    <div class="dt-iconboxes layout-6 text-center">
+                        <i class="fa fa-check fa-4x"></i>
+                        <h4>Seamless Usage & Configuration</h4>
+                        <div class="dt-iconboxes-text">
+                            <p style="text-align: justify;">
+                            All you need to configure is the <code>IP address</code> and <code>port</code> of the printer in Odoo POS session configuration menu. Plug in your ESC/POS IP printer to the same network as POS. Note that if you already have a IoT Box, no interference with the functionality of IoT Box except that printing function will shift to IP printer. You can disable/enable IP based printing in POS Configuration menu whenever necessary
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 float-left">
+                <div class="text-center">
+                    <div class="dt-iconboxes layout-6">
+                        <i class="fa fa-language fa-4x"></i>
+                        <h4>Wide Range Character Support</h4>
+                        <div class="dt-iconboxes-text">
+                            <p style="text-align: justify;">
+                            Unlike in previous versions, the receipt is converted from html format to image before sending to your printer. This has the advantage of being able to print a wide range of characters that may not even be natively  supported by a common ESC/POS printer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container mt32">
+    <div class="col-md-12 float-left mb32">
+        <h4 class="oe_slogan">POS IP Network Printer</h4>
+        <div class="text-center">
+            <img style="display:inline-block;" class="oe_picture oe_screenshot" src="usage.png">
+            <img style="display:inline-block;" class="oe_picture oe_screenshot" src="pos_print.gif">
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="mt32">
+        <div class="col-md-12 float-left mb32">
+            <h4 class="oe_slogan">Configuration</h4>
+            <h5 class="oe_slogan">Menu:  Point of Sale<span class="fa fa-long-arrow-right"/> Configurations <span class="fa fa-long-arrow-right"/> Point of Sale <span class="fa fa-long-arrow-right"/> Connect Devices</h5>
+            <div class="text-center">
+                <img style="display:inline-block;" class="oe_picture oe_screenshot" src="pos_ip_config.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container">
+    <div class="oe_dark oe_quote">
+        <div class="col-md-12 float-left">
+            <div class="col-md-6 float-left float-left">
+                <h2 class="oe_slogan">Odoo Support Services</h2>
+                <h3 class="oe_slogan">For bug reporting and fixing, enjoy our odoo support and development services from experienced team in Kenya</h3>
+                <q>
+                    We are a highly qualified team of well-rounded software engineers and applications systems integrators specialised in open source ERP solutions for SMEs all over the world
+                </q>
+            </div>
+            <div class="col-md-6 float-left float-left text-center">
+                <div class="col-md-12 float-left mt92">
+                    <div class="col-md-6 float-left float-left text-left">
+                        <div class="oe_author">Contacts</div>
+                        <div class="oe_job"><i class="fa fa-envelope"></i> <span><a href="mailto:Optima ICT<support@optima.co.ke>" target="_blank">support@optima.co.ke</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-mobile fa-2x"></i> <span><a href="tel:+254715956855" target="_blank">+254 715 956 855</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-phone-square"></i> <span><a href="tel:+254204405077" target="_blank">+254 776 519 392</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-skype"></i> <span><a href="skype:kamoing" target="_blank">kamoing</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-facebook-square"></i> <span><a href="https://www.facebook.com/OptimaICT/" target="_blank">OptimaICT</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-twitter-square"></i> <span><a href="https://twitter.com/optima_ICT" target="_blank">@optima_ICT</a></span></div>
+                        <div class="oe_job"></br><i class="fa fa-globe"></i> <span><a href="http://www.optima.co.ke" target="_blank">www.optima.co.ke</a></span></div>
+                    </div>
+                    <div class="col-md-6 float-left float-left">
+                        <img class="oe_photo" src="optima-odoo.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

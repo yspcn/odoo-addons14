@@ -1,0 +1,373 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/models/sale.py:0
+#: code:addons/sale_order_import/tests/test_sale_order.py:0
+#, python-format
+msgid " Amount w/o tax: %s %s)"
+msgstr " 金额（不含税： %s %s）"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "%d new order line(s) created: %s"
+msgstr "%d 已创建新订单行：%s"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "%d order line(s) deleted: %s"
+msgstr "%d 订单行已删除： %s"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"An order of customer '%s' with reference '%s' already exists: %s (state: %s)"
+msgstr "引用 '%s' 的客户 '%s' 订单已经存在：%s（状态：%s）"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__price_source
+msgid "Apply Prices From"
+msgstr "应用价格从"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "商业实体"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Create New"
+msgstr "新建"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "Created automatically via file import (%s)."
+msgstr "通过文件导入 (%s) 自动创建。"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__csv_import
+msgid "Csv Import"
+msgstr "Csv 导入"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__partner_id
+msgid "Customer"
+msgstr "客户"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__price_source__order
+msgid "Customer Order"
+msgstr "客户订单"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__doc_type
+msgid "Document Type"
+msgstr "文件类型"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__order_filename
+msgid "Filename"
+msgstr "文件名"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order__id
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"If it is a CSV file, you will have to manually select the customer. The CSV "
+"file should have 2 columns: the product reference or EAN13 (1st col) and "
+"then the product quantity (2nd col). It shouldn't have any header line and "
+"use semi-colon as field separator. The quantity shouldn't use any thousand "
+"separator ; if it is a decimal value, it should use dot as the decimal "
+"separator."
+msgstr ""
+"如果是 CSV 文件，则必须手动选择客户。 CSV 文件应有 2 列：产品参考或 "
+"EAN13（第 1 列），然后是产品数量（第 2 列）。 它不应该有任何标题行并使用分号"
+"作为字段分隔符。 数量不应使用任何千位分隔符； 如果是十进制值，则应使用点作为"
+"英文小数点分隔符。"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"If it is a PDF file, Odoo will try to find an XML file in the attachments of "
+"the PDF file and then use this XML file to create the quotation."
+msgstr ""
+"如果是 PDF 文件，Odoo 将尝试在 PDF 文件的附件中查找 XML 文件，然后使用此 XML "
+"文件创建报价。"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"If it is an XML file, Odoo will parse it if the module that adds support for "
+"this XML format is installed. For the"
+msgstr ""
+"如果它是一个 XML 文件，系统 将在安装了添加对这种 XML 格式支持的模块时解析"
+"它。 为了"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__state__import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Import"
+msgstr "导入"
+
+#. module: sale_order_import
+#: model:ir.actions.act_window,name:sale_order_import.sale_order_import_action
+#: model:ir.ui.menu,name:sale_order_import.sale_order_import_menu
+msgid "Import RFQ or Order"
+msgstr "导入询价或订单"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Import Sale Orders"
+msgstr "导入销售订单"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "Missing customer"
+msgstr "找不到客户"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__price_source__pricelist
+msgid "Pricelist"
+msgstr "价目表"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__sale_id
+msgid "Quotation to Update"
+msgstr "要更新的报价单"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__doc_type__rfq
+msgid "Request For Quotation"
+msgstr "报价邀请函"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__order_file
+msgid "Request for Quotation or Order"
+msgstr "报价或订单请求"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__doc_type__order
+msgid "Sale Order"
+msgstr "销售订单"
+
+#. module: sale_order_import
+#: model:ir.model,name:sale_order_import.model_sale_order_import
+msgid "Sale Order Import from Files"
+msgstr "从文件导入销售订单"
+
+#. module: sale_order_import
+#: model:ir.model,name:sale_order_import.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__partner_shipping_id
+msgid "Shipping Address"
+msgstr "送货地址"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"Some quotations have been found for this customer ; one of them may "
+"correspond to the order or RFQ that you are importing. You can either select "
+"an existing quotation to update or create a new one."
+msgstr ""
+"已找到该客户的一些报价单；其中一个可能对应于您正在导入的订单或RFQ。您可以选择"
+"要更新的现有报价或创建新报价。"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__state
+msgid "State"
+msgstr "国家"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"The currency of the imported order (%s) is different from the currency of "
+"the existing order (%s)"
+msgstr "导入订单（%s）的货币与现有订单（%s）的货币不同"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"The customer '%s' has a pricelist '%s' but the currency of this order is "
+"'%s'."
+msgstr "客户“%s”具有价格表“%s”，但此订单的货币为“%s”。"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"The quantity has been updated on the order line with product '%s' from %s to "
+"%s %s"
+msgstr "订单行上的产品“%s”数量已从%s更新为%s%s"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"The unit price has been updated on the order line with product '%s' from %s "
+"to %s %s"
+msgstr "已将产品“%s”的订单行上的单价从%s更新为%s%s"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "There are no embedded XML file in this PDF file."
+msgstr "此PDF文件中没有嵌入的XML文件。"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "This XML file is not XML-compliant"
+msgstr "此XML文件不是XML格式"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"This file '%s' is not recognised as a CSV, XML nor PDF file. Please check "
+"the file and it's extension."
+msgstr "此文件“%s”未被识别为CSV、XML或PDF文件。请检查文件及其扩展名。"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "This order doesn't have any line !"
+msgstr "此订单没有任何数据！"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "This quotation has been updated automatically via the import of file %s"
+msgstr "此报价已通过导入文件 %s 自动更新"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"This type of CSV order is not supported. Did you install the module to "
+"support CSV orders?"
+msgstr "不支持这种类型的 CSV 订单。 您是否安装了支持 CSV 订单的模块？"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid ""
+"This type of XML RFQ/order is not supported. Did you install the module to "
+"support this XML format?"
+msgstr "不支持这种类型的 XML 询价/订单。 您是否安装了支持这种 XML 格式的模块？"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Universal Business Language"
+msgstr "通用商务语言"
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "Unsupported file format"
+msgstr "不支持的文件格式"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__state__update
+msgid "Update"
+msgstr "更新"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Update Existing"
+msgstr "更新现有"
+
+#. module: sale_order_import
+#: model:ir.model.fields,help:sale_order_import.field_sale_order_import__order_file
+msgid ""
+"Upload a Request for Quotation or an Order file. Supported formats: CSV, XML "
+"and PDF (PDF with an embeded XML file)."
+msgstr ""
+"上传报价请求或订单文件。支持的格式：CSV、XML和PDF（带有嵌入XML文件的PDF）。"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"Upload below the customer order or request for quotation as CSV, XML or PDF "
+"file. When you click on the Import button:"
+msgstr ""
+"以CSV、XML或PDF文件的形式上传客户订单或报价请求下方。单击“导入”按钮时："
+
+#. module: sale_order_import
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+#, python-format
+msgid "You must select a quotation to update."
+msgstr "必须选择要更新的报价单。"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"format (UBL), you should install the module <em>sale_order_import_ubl</em>."
+msgstr "格式（UBL），您应该安装模块<em>sale_order_import_ubl</em>。"

@@ -1,0 +1,182 @@
+Version 14.0.2.3.7 - 16 Apr 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improvement in Product Variants.
+
+Version 14.0.2.3.6 - 07 Apr 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Feature
+
+ - Introduce Image Hotspot.
+
+Version 14.0.2.3.5 - 02 Apr 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Minor UI/UX Changes.
+ - Header Dynamic font-size changes.
+
+Version 14.0.2.3.4 - 30 Mar 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - UI/UX Improved for the shop and product page.
+
+Version 14.0.2.3.3 - 25 Mar 21
+===================================
+Note:update theme.
+
+Improvement
+
+ - Improved Product Builder Tool access rights.
+
+Version 14.0.2.3.2 - 25 Mar 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved Snippet animation options and added lazy load for the all the Dynamic Product Slider.
+
+Version 14.0.2.3.1 - 19 Mar 21
+===================================
+Note:Update theme.
+
+Improvement
+
+ - Improved Footer Logo functionality.
+
+Version 14.0.2.3.0 - 18 Mar 21
+===================================
+Note: Pre activity before theme base & theme update
+You need to remove category_slider and brand_slider view
+
+Step for category_slider remove
+1) Active developer mode and goto Technical -> User Interface -> view
+2) search for category_slider and select view After Action->Delete
+
+Step for brand_slider remove
+1) Active developer mode and goto Technical -> User Interface -> view
+2) search for brand_slider and select view After Action->Delete
+
+After removing the view uninstall "Emipro Theme Category Slider" and update "emipro theme base", "theme clarico vega" into each website.
+
+Improvement
+
+ - Improved UI/UX of Product Builder Tool to use easy to configure sliders.
+
+ Feature
+	- Introduce New Product Slider Style and Brand and Category Slider Style.
+	- Added New Snippet called Banner With Product Slider and Dual Product Slider and Brand Builder with Banner.
+
+Version 14.0.2.2.3 - 4 Mar 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved UI/UX of Product Page.
+
+ Feature
+	- Introduce Attribute Swatches with Tool-tip.
+
+Version 14.0.2.2.2 - 26 Feb 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved UI/UX In Mega Menu, Logged In Popup and Product Page minor changes.
+
+ Feature
+  - Added Tooltip In Product variants level In Product Page.
+
+Version 14.0.2.2.1 - 22 Feb 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved UI/UX for the Product Page and Header.
+
+ Feature
+  - Image Magnifier for Product.
+
+Version 14.0.2.2.0 - 12 Feb 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved UI/UX for the Shop Page and Header.
+ - Added New Home Style 9 Snippet.
+
+Version 14.0.2.1.0 - 03 Feb 21
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved Search Bar code.
+ - Improved UI/UX for the Shop Page and Product Page.
+ - Improved functionality of Contact Us.
+
+ Feature
+
+- Added New Header Style.
+
+Version 14.0.2.0.0 - 14 Nov 20
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved the log in popup layout code.
+ - Scroll for counting number snippet.
+ - CSS improvement in snippets and header.
+
+ Feature
+
+- Introduced Product Display Builder Snippet.
+
+Version 14.0.1.0.3 - 24 Nov 20
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Improved Login popup auth signup link.
+ - Changed XPath for ajax cart hidden input for the product page.
+ - Removed pointer event from aos.css file.
+ - Display message if there is no video in Video banner snippet.
+
+Version 14.0.1.0.2 - 11 Nov 20
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Safari browser improvement in snippet.
+
+Version 14.0.1.0.1 - 3 Nov 20
+===================================
+Note:First upgrade emipro_theme_base and update theme.
+
+Improvement
+
+ - Design multi color attribute for the product page, quick view and ajax cart.
+ - Editor related improvement in full slider & some design improvement in Product Page,Shop Page.
+
+Version 14.0.1.0.0 - 24 Oct 20
+===================================
+
+1. Initial release

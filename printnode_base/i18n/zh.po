@@ -1,0 +1,1053 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* printnode_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-25 12:11+0000\n"
+"PO-Revision-Date: 2022-08-04 23:30+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_form
+msgid "9f68a54b09ff07ae13d4442c120ff0eeaaeadfxx"
+msgstr ""
+
+#. module: printnode_base
+#. openerp-web
+#: code:addons/printnode_base/static/src/js/action_manager.js:0
+#, python-format
+msgid ""
+"A popup window with your report was blocked. You may need to change your "
+"browser settings to allow popup windows for this page."
+msgstr ""
+"您的报告的弹出窗口被阻止。您可能需要更改浏览器设置以允许此页面的弹出窗口。"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__account_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__account_id
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_form
+msgid "Account"
+msgstr "账户"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_account_printnode_id
+msgid "Account already exists."
+msgstr "帐户已存在。"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_account_action
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_accounts
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_tree
+msgid "Accounts"
+msgstr "账户"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__active
+msgid ""
+"Activate or Deactivate the print action button.\n"
+"                If no active then move to the status 'archive'.\n"
+"                Still can by found using filters button"
+msgstr ""
+"激活或停用打印操作按钮。\n"
+"                 如果没有活动，则转到“存档”状态。\n"
+"                 仍然可以通过使用过滤器按钮找到"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_rule__active
+msgid ""
+"Activate or Deactivate the report policy.\n"
+"                If no active then move to the status 'archive'.\n"
+"                Still can by found using filters button"
+msgstr ""
+"激活或停用报告策略。\n"
+"                 如果没有活动，则转到“存档”状态。\n"
+"                 仍然可以通过使用筛选按钮找到"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__active
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__active
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__active
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__active
+#: model:ir.model.fields.selection,name:printnode_base.selection__shipping_label__label_status__active
+msgid "Active"
+msgstr "活跃"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_search_view
+msgid "Active labels"
+msgstr "活动标签"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__alias
+msgid "Alias"
+msgstr "别名"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_action_button_search
+msgid "Archived"
+msgstr "存档"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_res_company__auto_send_slp
+#: model:ir.model.fields,field_description:printnode_base.field_res_config_settings__auto_send_slp
+msgid "Auto-send to Shipping Label Printer"
+msgstr "自动发送到标签打印机"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_delivery_carrier__autoprint_paperformat_id
+msgid "Autoprint Paper Format"
+msgstr "自动打印纸张格式"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_action_buttons
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_action_button_search
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_action_button_tree
+msgid "Buttons"
+msgstr "按钮"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__preprint
+msgid ""
+"By default the report will be printed after your action.\n"
+"                First you click a button, server make the action then print\n"
+"                result of this. If you want to print first and only after\n"
+"                that make an action assigned to the button, then activate\n"
+"                this field. Valid per each action (button)."
+msgstr ""
+"默认情况下，报告将在您的操作后打印。\n"
+"                 首先单击一个按钮，服务器执行操作然后打印\n"
+"                 这样做的结果。 如果您想先打印，然后再打印\n"
+"                 将动作分配给按钮，然后激活\n"
+"                 这个领域。 每个动作（按钮）都有效。"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_report_abstract_wizard_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid "Cannot send printnode job (%s)."
+msgstr "无法发送打印节点作业 (%s)。"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__model
+msgid ""
+"Choose a model where the button is placed. You can find the\n"
+"                model name in the URL. For example the model of this page "
+"is\n"
+"                'model=printnode.action.button'.\n"
+"                Check this in the URL after the 'model='."
+msgstr ""
+"选择放置按钮的模型。 你可以找到\n"
+"                 URL 中的型号名称。 例如这个页面的模型是\n"
+"                 '模型=printnode.action.button'。\n"
+"                 在“model=”之后的 URL 中检查这一点。"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__report_id
+msgid "Choose a report that will be printed after you hit a button"
+msgstr "选择点击按钮后将打印的报告"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__computer_id
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_computer_form
+msgid "Computer"
+msgstr "计算机"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_computer_printnode_id
+msgid "Computer ID should be unique."
+msgstr "计算机 ID 应该是唯一的。"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_computer_action
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__computer_ids
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_computers
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_computer_tree
+msgid "Computers"
+msgstr "电脑"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: printnode_base
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_service
+msgid "Configuration"
+msgstr "配置"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#: code:addons/printnode_base/models/printnode_report.py:0
+#: code:addons/printnode_base/models/printnode_rule.py:0
+#, python-format
+msgid "Configuration is valid."
+msgstr "配置有效。"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__name
+msgid "Content Type"
+msgstr "内容类型"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__number_copy
+msgid "Copies"
+msgstr "副本"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__create_uid
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__create_date
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printjob_form
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printjob_tree
+msgid "Date"
+msgstr "日期"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_res_users__printnode_printer
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid "Default Printer"
+msgstr "默认打印机"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid "Default Shipping Label Printer"
+msgstr "默认标签打印机"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__carrier_id
+#: model_terms:ir.ui.view,arch_db:printnode_base.view_delivery_carrier_printnode_tree
+msgid "Delivery Carrier"
+msgstr "送货承运人"
+
+#. module: printnode_base
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_carrier_settings
+msgid "Delivery Carrier Settings"
+msgstr "送货承运人设置"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__picking_id
+msgid "Delivery Order"
+msgstr "交货单"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__description
+msgid "Description"
+msgstr "说明"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__display_name
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__domain
+msgid "Domain"
+msgstr "域"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_action.py:0
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_action_button_tree
+#, python-format
+msgid "Domain Editor"
+msgstr "域编辑器"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__endpoint
+msgid "Endpoint"
+msgstr "端点"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__error
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__error
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__error
+msgid "Error"
+msgstr "错误"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_form
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_tree
+msgid "Forget Account"
+msgstr "忘记帐号"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__format_ids
+msgid "Formats"
+msgstr "格式"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__height
+msgid "Height"
+msgstr "高度"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__printnode_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__printnode_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__printnode_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__printnode_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__id
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__id
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__id
+msgid "ID"
+msgstr "ID"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid ""
+"If this checkbox is set the printer status is verified when documents are "
+"set in printing Wizard"
+msgstr "如果设置此复选框，则在打印向导中设置文档时验证打印机状态"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid ""
+"If this option is selected then when user Validates Delivery Order,\n"
+"                                    shipping labels are automatically sent "
+"to the printer that is set in\n"
+"                                    user preferences. In case no Shipping "
+"Label Printer is selected on User,\n"
+"                                    then system will try to send to the "
+"printer selected below.\n"
+"                                    If no printer is selected below - user "
+"will get error message."
+msgstr ""
+"如果选择此选项，则当用户验证交货单时，\n"
+"                                     运输标签会自动发送到设置的打印机\n"
+"                                     用户偏好。 如果用户没有选择运输标签打印"
+"机，\n"
+"                                     然后系统将尝试发送到下面选择的打印机。\n"
+"                                     如果下面没有选择打印机 - 用户将收到错误"
+"消息。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Immediate printing via PrintNode is disabled for company {}. Please, contact "
+"Administrator to re-enable it."
+msgstr "公司 {} 禁止通过打印节点立即打印。 请联系管理员重新启用它。"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_form
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_tree
+msgid "Import Printers"
+msgstr "导入打印机"
+
+#. module: printnode_base
+#: model:ir.model.fields.selection,name:printnode_base.selection__shipping_label__label_status__inactive
+msgid "In Active"
+msgstr "活跃"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__description
+msgid "Label"
+msgstr "标签"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label____last_update
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__write_uid
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__write_date
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__write_date
+msgid "Last Updated on"
+msgstr "上次更新日期"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid "Manage accounts"
+msgstr "管理帐户"
+
+#. module: printnode_base
+#: model:res.groups,name:printnode_base.printnode_security_group_manager
+msgid "Manager"
+msgstr "管理"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_res_company__printnode_recheck
+#: model:ir.model.fields,field_description:printnode_base.field_res_config_settings__printnode_recheck
+msgid "Mandatory check Printing Status"
+msgstr "强制检查打印状态"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__method
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__method_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__method
+msgid "Method"
+msgstr "方法"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_action_methods
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_methods
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_action_method_tree
+msgid "Methods"
+msgstr "方法"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__model_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__model_id
+msgid "Model"
+msgstr "型号"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__report_model
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__report_model
+msgid "Model Name"
+msgstr "型号名称"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_method__name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__name
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__name
+msgid "Name"
+msgstr "名字"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_action.py:0
+#, python-format
+msgid ""
+"Neither on action button level, no on user level, no on company level "
+"printer is defined for method \"%s\". Please, define it."
+msgstr "未为方法“%s”定义操作按钮级别、用户级别和公司级别的打印机。请定义它。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/res_users.py:0
+#, python-format
+msgid ""
+"Neither on company level, no on user level default label printer is defined. "
+"Please, define it."
+msgstr "在公司级和用户级都未定义默认标签打印机。请定义它。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/wizard/printnode_report_abstract_wizard.py:0
+#, python-format
+msgid "No attachment found."
+msgstr "没有找到附件。"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__notes
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__notes
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__notes
+msgid "Note"
+msgstr "备注"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__number_copy_selectable
+msgid "Number Copy Selectable"
+msgstr "可选择拷贝数"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__online
+msgid "Online"
+msgstr "在线"
+
+#. module: printnode_base
+#: code:addons/printnode_base/wizard/printnode_report_abstract_wizard.py:0
+#, python-format
+msgid "Only 1 copy can be downloaded when printer is not selected."
+msgstr "未选择打印机时，只能下载一份副本。"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid "Other Settings"
+msgstr "其他设置"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Paper size for report {} ({}) and for printer {} ({}) do not match. Please "
+"update Printer or Report Settings."
+msgstr ""
+"报告 {} ({}) 和打印机 {} ({}) 的纸张尺寸不匹配。 请更新打印机或报告设置。"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_paper_action
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__paper_ids
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_papers
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_paper_tree
+msgid "Papers"
+msgstr "纸张"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__password
+msgid "Password"
+msgstr "密码"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_rule.py:0
+#, python-format
+msgid "Please, fill in the Report and Printer fields"
+msgstr "请填写报告和打印机字段"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_report_abstract_wizard_form
+msgid "Print"
+msgstr "打印"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printjob_form
+msgid "Print Job"
+msgstr "打印作业"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_printjob_action
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__printjob_ids
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printjob_tree
+msgid "Print Jobs"
+msgstr "打印作业"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.view_picking_form
+msgid "Print Last Shipping Label"
+msgstr "打印最后装运标签"
+
+#. module: printnode_base
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_policy
+msgid "Print Report Policy"
+msgstr "打印报告策略"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_report_abstract_wizard
+msgid "Print Report via PrintNode"
+msgstr "通过打印节点打印报表"
+
+#. module: printnode_base
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_buttons
+msgid "Print action buttons"
+msgstr "打印操作按钮"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__preprint
+msgid "Print before action"
+msgstr "操作前打印"
+
+#. module: printnode_base
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_log
+msgid "Print jobs"
+msgstr "打印作业"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid ""
+"Print reports immediately via Printnode service (otherwise it would be "
+"downloaded)"
+msgstr "通过打印节点服务立即打印报告（否则将下载）"
+
+#. module: printnode_base
+#: model:ir.actions.server,name:printnode_base.shipping_label_print
+#: model:ir.model.fields,field_description:printnode_base.field_res_company__printnode_enabled
+#: model:ir.model.fields,field_description:printnode_base.field_res_config_settings__printnode_enabled
+#: model:ir.model.fields,field_description:printnode_base.field_res_users__printnode_enabled
+msgid "Print via PrintNode"
+msgstr "通过打印节点打印"
+
+#. module: printnode_base
+#: model:ir.module.category,name:printnode_base.printnode_security_category
+#: model:ir.ui.menu,name:printnode_base.menu_printnode
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:printnode_base.view_delivery_carrier_form
+msgid "PrintNode"
+msgstr "打印节点"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_account
+msgid "PrintNode Account"
+msgstr "打印节点帐户"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_action_button
+msgid "PrintNode Action Button"
+msgstr "打印节点操作按钮"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_action_method
+msgid "PrintNode Action Method"
+msgstr "打印节点操作方法"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_computer
+msgid "PrintNode Computer"
+msgstr "打印节点计算机"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_format
+msgid "PrintNode Format"
+msgstr "打印节点格式"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_printjob
+msgid "PrintNode Job"
+msgstr "打印节点作业"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_paper
+msgid "PrintNode Paper"
+msgstr "打印节点纸张"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_printer
+msgid "PrintNode Printer"
+msgstr "打印节点打印机"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_report_policy
+msgid "PrintNode Report Policy"
+msgstr "打印节点报告策略"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_printnode_rule
+msgid "PrintNode Rule"
+msgstr "打印节点规则"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printer__status
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__status
+msgid "PrintNode Status"
+msgstr "打印节点状态"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__printer_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_printjob__printer_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_abstract_wizard__printer_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__printer_id
+#: model:ir.model.fields,field_description:printnode_base.field_res_company__printnode_printer
+#: model:ir.model.fields,field_description:printnode_base.field_res_config_settings__printnode_printer
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printer_form
+msgid "Printer"
+msgstr "打印机"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_printer_printnode_id
+msgid "Printer ID should be unique."
+msgstr "打印机ID应该是唯一的。"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_policy_printer
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_policy_printers
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_policy_printer_tree
+msgid "Printer Settings"
+msgstr "打印机设置"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_report_abstract_wizard_form
+msgid "Printer is not available. Please, choose another printer."
+msgstr "打印机不可用。请选择另一台打印机。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Printer {} is not available. Please check it for errors or select another "
+"printer."
+msgstr "打印机 {} 不可用。请检查错误或选择其他打印机。"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_printer_action
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__printer_ids
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_printers
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_printer_tree
+msgid "Printers"
+msgstr "打印机"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_user_form
+#: model_terms:ir.ui.view,arch_db:printnode_base.view_users_form_preferences
+msgid "Printing"
+msgstr "打印中"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_format__qweb
+msgid "QWeb Name"
+msgstr "QWeb 名称"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_carrier_settings
+msgid "Quick Delivery Carrier PrintNode Settings"
+msgstr "快速传送载体打印节点设置"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__model
+msgid "Related Document Model"
+msgstr "相关文档模型"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__shipping_id
+msgid "Related Shipping Label"
+msgstr "相关装运标签"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_action_button__report_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__report_id
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__report_id
+msgid "Report"
+msgstr "报表"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__report_paper_id
+msgid "Report Paper"
+msgstr "报告文件"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_policy_report
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_policy_reports
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_policy_report_tree
+msgid "Report Settings"
+msgstr "报告设置"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_report_policy__report_type
+msgid "Report Type"
+msgstr "报告类型"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Report expected three required parameters: {}. Make sure all of them passed "
+"correctly. Report: {}."
+msgstr "报表需要三个必需参数： {}. 确保他们都通过了正确的考试。报告： {}。"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_report_policy_report_id
+msgid "Report policy is unique for report."
+msgstr "报表策略对于报表是唯一的。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Report type for report {} ({}) and for printer {} ({}) do not match. Please "
+"update Printer or Report Settings."
+msgstr ""
+"报表 {} ({}) 和打印机 {} ({}) 的报表类型不匹配。请更新打印机或报告设置。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/printnode_device.py:0
+#, python-format
+msgid ""
+"Report {} is not properly configured (no paper size). Please update Report "
+"Settings or choose another report."
+msgstr "报表 {} 配置不正确（没有纸张大小）。请更新报告设置或选择其他报告。"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_rule_rule_id
+msgid "Rule should be unique."
+msgstr "规则应该是唯一的。"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_tree
+msgid "Send shipping labels to Printer via PrintNode"
+msgstr "通过打印节点将装运标签发送到打印机"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_tree
+msgid "Send to Printer"
+msgstr "发送到打印机"
+
+#. module: printnode_base
+#: code:addons/printnode_base/controllers/main.py:0
+#, python-format
+msgid "Sent to PrintNode"
+msgstr "发送到打印节点"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_configs_action
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_general
+msgid "Settings"
+msgstr "设置"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_search_view
+msgid "Shipping Label"
+msgstr "装运标签"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label_document__document_id
+msgid "Shipping Label Document"
+msgstr "装运标签文件"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_document_form
+msgid "Shipping Label Document Form"
+msgstr "装运标签文件表格"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_form
+msgid "Shipping Label Form"
+msgstr "装运标签表格"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_res_company__company_label_printer
+#: model:ir.model.fields,field_description:printnode_base.field_res_config_settings__company_label_printer
+#: model:ir.model.fields,field_description:printnode_base.field_res_users__user_label_printer
+msgid "Shipping Label Printer"
+msgstr "装运标签打印机"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.shipping_label_tree
+msgid "Shipping Label Tree"
+msgstr "装运标签目录"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__label_ids
+msgid "Shipping Label(s)"
+msgstr "运输标签"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.shipping_labels_action
+#: model:ir.model.fields,field_description:printnode_base.field_stock_picking__shipping_label_ids
+#: model:ir.ui.menu,name:printnode_base.menu_shipping_labels
+#: model_terms:ir.ui.view,arch_db:printnode_base.view_picking_form
+msgid "Shipping Labels"
+msgstr "运输标签"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "运输方式"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__status
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_computer__status
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__label_status
+msgid "Status"
+msgstr "状态"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__description
+msgid "Text field for notes and memo."
+msgstr "注释和备忘录的文本字段。"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_action_button__method_id
+msgid ""
+"The technical name of the action that a button performs.\n"
+"                It can be seen only in debug mode. Hover the cursor on\n"
+"                the desired button using debug mode and type a method name\n"
+"                in this field."
+msgstr ""
+"按钮执行的操作的技术名称。\n"
+"                 它只能在调试模式下看到。 将光标悬停在\n"
+"                 使用调试模式的所需按钮并键入方法名称\n"
+"                 在这个领域里。"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_printnode_report_policy__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser PDF means the report will be rendered using Wkhtmltopdf and "
+"downloaded by the user."
+msgstr ""
+"将呈现的报告类型，每个报告都有自己的呈现方法。HTML表示报告将直接在浏览器中打"
+"开PDF表示报告将使用Wkhtmltopdf呈现并由用户下载。"
+
+#. module: printnode_base
+#: code:addons/printnode_base/models/stock_picking.py:0
+#, python-format
+msgid ""
+"There are no available \"shipping labels\" for printing, or last \"shipping "
+"label\" in state \"In Active\""
+msgstr "没有可用于打印的“装运标签”，或“处于活动状态”的最后一个“装运标签”"
+
+#. module: printnode_base
+#: model:ir.model.fields,help:printnode_base.field_delivery_carrier__autoprint_paperformat_id
+msgid ""
+"This settings defines which paperformat should be chosen for printing lables "
+"of this carrier."
+msgstr "此设置定义打印此载体标签时应选择的纸张格式。"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_shipping_label__tracking_numbers
+msgid "Tracking Number(s)"
+msgstr "追踪号码"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_stock_picking
+msgid "Transfer"
+msgstr "转移"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_rule__user_id
+#: model:res.groups,name:printnode_base.printnode_security_group_user
+msgid "User"
+msgstr "用户"
+
+#. module: printnode_base
+#: model:ir.actions.act_window,name:printnode_base.printnode_rules
+#: model:ir.ui.menu,name:printnode_base.menu_printnode_rules
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_rules_tree
+msgid "User Rules"
+msgstr "用户规则"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_account__username
+msgid "Username"
+msgstr "用户名"
+
+#. module: printnode_base
+#: model:ir.model.constraint,message:printnode_base.constraint_printnode_account_username
+msgid "Username (token) must be unique."
+msgstr "用户名（token）必须是唯一的。"
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_res_users
+msgid "Users"
+msgstr "用户"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.res_config_settings_view_form
+msgid "View mappings"
+msgstr "视图映射"
+
+#. module: printnode_base
+#. openerp-web
+#: code:addons/printnode_base/static/src/js/action_manager.js:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: printnode_base
+#. openerp-web
+#: code:addons/printnode_base/static/src/js/action_manager.js:0
+#, python-format
+msgid ""
+"Well, actually it has been just sent to the printer via PrintNode service"
+msgstr "实际上，它刚刚通过打印节点服务发送到打印机"
+
+#. module: printnode_base
+#: model:ir.model.fields,field_description:printnode_base.field_printnode_paper__width
+msgid "Width"
+msgstr "宽度"
+
+#. module: printnode_base
+#. openerp-web
+#: code:addons/printnode_base/static/src/js/action_manager.js:0
+#, python-format
+msgid "Wow, the report is printed!"
+msgstr "哇，报告打印出来了！"
+
+#. module: printnode_base
+#: model_terms:ir.ui.view,arch_db:printnode_base.printnode_account_form
+msgid "https://api.printnode.com"
+msgstr ""
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_shipping_label
+msgid "shipping.label"
+msgstr ""
+
+#. module: printnode_base
+#: model:ir.model,name:printnode_base.model_shipping_label_document
+msgid "shipping.label.document"
+msgstr ""

@@ -1,0 +1,225 @@
+<odoo>
+
+
+    <record id="cust_reg_menu" model="website.menu">
+            <field name="name">New Customer Registration</field>
+            <field name="url">/sela_cust_register</field>
+            <field name="sequence" type="int">58</field>
+    </record>
+
+
+
+
+
+
+    <template id="cust_reg"  name="Customer Registration">
+         <t t-name="cust_register">
+                    <t t-call="website.layout">
+                      <div id="wrap" class="oe_structure oe_empty o_portal_details" sttyle="width:100%;">
+                        <form action="/sela_cust_register" method="post">
+                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                          <div class="container" sttyle="width:100%;">
+                              <h2 style="text-align: center; font-family: poppins,Arial,Helvetica,sans-serif;" class="o_fake_editable o_form_heading"><strong>Please note that we ONLY approve customers with an existing business in the United States. Individuals with no store or restaurant license or living outside of the United States will not be approved. Thank you</strong></h2>
+                            <br></br>
+                              <div class="row form-group form-field o_fake_not_editable o_website_form_required_custom">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="company_name">
+                                      Company Name
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="company_name" required=""/>
+                              </div>
+                            </div>
+                              <div class="form-group row form-field o_website_form_required o_fake_not_editable">
+                                  <div class="col-lg-3 col-md-4">
+                                    <label class="col-form-label o_fake_editable" for="name">First Name</label>
+                                  </div>
+                                  <div class="col-lg-7 col-md-8">
+                                    <input type="text" class="form-control o_website_form_input" name="name" required=""/>
+                                  </div>
+                              </div>
+
+                              <div class="form-group row form-field o_website_form_required o_fake_not_editable">
+                                  <div class="col-lg-3 col-md-4">
+                                    <label class="col-form-label o_fake_editable" for="last_name">Last Name</label>
+                                  </div>
+                                  <div class="col-lg-7 col-md-8">
+                                    <input type="text" class="form-control o_website_form_input" name="last_name" required=""/>
+                                  </div>
+                              </div>
+
+
+                            <div class="form-group row form-field o_website_form_required_custom">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="email">E-mail</label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="email" required=""/>
+                              </div>
+                            </div>
+
+                            <div class="form-group row form-field">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="phone">Business Number</label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="phone" required=""/>
+                              </div>
+                            </div>
+                            <div class="row form-group form-field o_fake_not_editable o_website_form_required_custom">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable o_form_req" for="mobile">
+                                      Mobile
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="mobile" required=""/>
+                              </div>
+                            </div>
+                            <div class="row form-group form-field o_fake_not_editable">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="vat">Tax ID</label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="vat" required=""/>
+                              </div>
+                            </div>
+                            <div class="row form-group form-field o_fake_not_editable">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="street">
+                                      Company Address</label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="street" required=""/>
+                              </div>
+                            </div>
+                            <div class="row form-group form-field o_fake_not_editable">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="street2">Company Address Line 2
+                                      </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="street2"/>
+                              </div>
+                            </div>
+
+<!--                            <div class="row form-group form-field">-->
+<!--                              <div class="col-lg-3 col-md-4">-->
+<!--                                <label class="col-form-label o_fake_editable" for="country_id">-->
+<!--                                      Country-->
+<!--                                  </label>-->
+<!--                              </div>-->
+<!--                              <div class="col-lg-7 col-md-8">-->
+<!--                                <select class="form-control o_website_form_input" name="country_id" required="">-->
+
+<!--                                    <option value="">Country...</option>-->
+
+<!--                                  <t t-foreach="countries or []" t-as="country">-->
+<!--                                        <option t-att-value="country.id">-->
+<!--                                            <t t-esc="country.name"/>-->
+<!--                                        </option>-->
+<!--                                    </t>-->
+
+
+<!--                                </select>-->
+<!--                              </div>-->
+<!--                            </div>-->
+                            <div class="row form-group form-field o_fake_not_editable">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="city">
+                                      City
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="city" required=""/>
+                              </div>
+                            </div>
+
+                            <div class="row form-group form-field">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="state_id">
+                                      State / Province
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <select class="form-control o_website_form_input" name="state_id" required="">
+
+                                    <option value="">select...</option>
+                                    <t t-foreach="states or []" t-as="state">
+                                        <option t-att-value="state.id" style="display:none;" t-att-data-country_id="state.country_id.id">
+                                            <t t-esc="state.name" />
+                                        </option>
+                                    </t>
+
+
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="row form-group form-field o_fake_not_editable">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="zip">
+                                      PostCode
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <input type="text" class="form-control o_website_form_input" name="zip" required=""/>
+                              </div>
+                            </div>
+                              <div class="row form-group form-field">
+                              <div class="col-lg-3 col-md-4">
+                                <label class="col-form-label o_fake_editable" for="country_id">
+                                      Country
+                                  </label>
+                              </div>
+                              <div class="col-lg-7 col-md-8">
+                                <select class="form-control o_website_form_input" name="country_id" required="">
+
+                                    <option value="">Country...</option>
+
+                                  <t t-foreach="countries or []" t-as="country">
+                                        <option t-att-value="country.id" t-att-selected="country.name == 'United States'">
+                                            <t t-esc="country.name"/>
+                                        </option>
+                                    </t>
+
+
+                                </select>
+                              </div>
+                            </div>
+
+
+
+                            <div class="form-group row">
+                              <div class="offset-lg-3 offset-md-4 col-md-8 col-lg-7">
+                                <button class="btn btn-primary btn-lg o_website_form_send" data-original-title="" title="" aria-describedby="tooltip502938">Send</button>
+                                <span id="o_website_form_result"/>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </t>
+                </t>
+
+    </template>
+
+    <template id="register_form_success" name="Customer Registration Form Successfully Submitted">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h1 class="">Thank you for registering.</h1>
+                        <div class="alert alert-success">
+                            Customer created successfully.
+                        </div>
+                        <p> We will get back to you shortly to inform you of outcome of your registration.</p>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+</odoo>

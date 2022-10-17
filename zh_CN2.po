@@ -1,0 +1,1775 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_boec
+# 	* om_account_budget
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20210723\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-25 18:08+0000\n"
+"PO-Revision-Date: 2021-07-26 13:12+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop
+msgid "\" category."
+msgstr "\" 类别。"
+
+#. module: om_account_budget
+#: code:addons/om_account_budget/models/account_budget.py:0
+#, python-format
+msgid ""
+"\"End Date\" of the budget line should be included in the Period of the "
+"budget"
+msgstr "预算行的\"结束日期\"应包含在预算期间中"
+
+#. module: om_account_budget
+#: code:addons/om_account_budget/models/account_budget.py:0
+#, python-format
+msgid ""
+"\"Start Date\" of the budget line should be included in the Period of the "
+"budget"
+msgstr "预算行的\"开始日期\"应包含在预算期间中"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.insta_feed
+msgid "#Boec_Fasion"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "$59.00"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_add_to_cart
+msgid "+ Add to cart"
+msgstr "+ 添加到购物车"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "+47 333 78 901"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "195 E Parker Square Dr, Parker, CO 801"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid ""
+"30-day money-back guarantee<br/>\n"
+"                                            Shipping: 2-3 Business Days<br/>"
+msgstr ""
+"30天退款保证<br/>\n"
+"                                             发货：2-3 个工作日<br/>"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_kanban
+msgid ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" title=\"Period"
+"\"/>"
+msgstr ""
+"<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"时期\" title=\"时期\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "<i class=\"far fa-calendar-alt\"> 05 December 2021</i>"
+msgstr "<i class=\"far fa-calendar-alt\">2021/12/21</i>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "<i class=\"far fa-calendar-alt\"> 16 April 2021</i>"
+msgstr "<i class=\"far fa-calendar-alt\"> 2021/4/16</i>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "<i class=\"far fa-calendar-alt\"> 30 August 2021</i>"
+msgstr "<i class=\"far fa-calendar-alt\">2021年8月30日</i>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid ""
+"<i class=\"material-icons\" style=\"font-size:26px; margin-top: 5px;margin-"
+"left: -15px;\">search</i>"
+msgstr ""
+"<i class=\"material-icons\" style=\"font-size:26px; margin-top: 5px;margin-"
+"left: -15px;\">搜索</i>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid "<i class=\"material-icons\">shopping_cart</i>"
+msgstr "<i class=\"material-icons\">购物车</i>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid ""
+"<span class=\"\">Process Checkout</span>\n"
+"                                <span class=\"fa fa-chevron-right\"/>"
+msgstr ""
+"<span class=\"\">结账流程</span>\n"
+"                                <span class=\"fa fa-chevron-right\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid ""
+"<span class=\"\">Process Checkout</span>\n"
+"                            <span class=\"fa fa-chevron-right\"/>"
+msgstr ""
+"<span class=\"\">结账流程</span>\n"
+"                            <span class=\"fa fa-chevron-right\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid ""
+"<span class=\"bt\">Who are in extremely love with eco friendly system.</span>"
+msgstr "<span class=\"bt\">谁非常喜欢生态友好系统。</span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                                <span class=\"\">Continue Shopping</span>"
+msgstr ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                                <span class=\"\">继续购物</span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                            Continue<span class=\"d-none d-md-inline\"> "
+"Shopping</span>"
+msgstr ""
+"<span class=\"fa fa-chevron-left\"/>\n"
+"                            继续<span class=\"d-none d-md-inline\"> 购物</"
+"span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid ""
+"<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/> "
+"Add to Wishlist"
+msgstr ""
+"<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/> 添"
+"加到心愿单"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_buttons
+msgid ""
+"<span class=\"far fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
+msgstr ""
+"<span class=\"far fa-heart\" role=\"img\" aria-label=\"添加到心愿单\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "<span class=\"fas fa-exchange-alt\"/> Add to Compare"
+msgstr "<span class=\"fas fa-exchange-alt\"/> 加入对比"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_buttons
+msgid "<span class=\"material-icons\">compare_arrows</span>"
+msgstr "<span class=\"material-icons\">对比箭头</span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "<span class=\"mr-1\">Show:</span>"
+msgstr "<span class=\"mr-1\">显示：</span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "<span class=\"s_website_form_label_content\">Email To</span>"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart_button
+msgid "<span>Process Checkout</span>"
+msgstr "<span>结账流程</span>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "A short description that will also appear on documents."
+msgstr "也将出现在文档中的简短描述。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.banner
+msgid ""
+"A specialist label creating luxury essentials. Ethically crafted with an\n"
+"                                            unwavering\n"
+"                                            commitment to exceptional "
+"quality."
+msgstr ""
+"一个专业的标签创造豪华必需品。用一个\n"
+"坚定不移的\n"
+"对卓越品质的承诺。"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid ""
+"A two or three storey house is the ideal way to maximise the piece of earth "
+"on which our home sits, but\n"
+"                                                        for older or infirm "
+"people."
+msgstr ""
+"两层或三层的房子是最大限度地利用我们家所在的那片土地的理想方式，但是\n"
+"老年人或体弱者。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "ABOUT US"
+msgstr "关于我们"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart_coupon
+msgid "APPLY"
+msgstr "应用"
+
+#. module: theme_boec
+#: model:website.menu,name:theme_boec.menu_about_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "About"
+msgstr "关于"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Accessories"
+msgstr "配件"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__account_ids
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_budget_post_form
+msgid "Accounts"
+msgstr "账户"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__percentage
+msgid "Achievement"
+msgstr "成就"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_needaction
+msgid "Action Needed"
+msgstr "必要操作"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Add one"
+msgstr "添加一个"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Add to Cart"
+msgstr "添加到购物车"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_buttons
+msgid "Add to Wishlist"
+msgstr "添加到愿望列表"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid ""
+"Additional\n"
+"                                            information"
+msgstr ""
+"额外的\n"
+"                                             信息"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_address_top
+msgid "Address"
+msgstr "地址"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Affiliate program"
+msgstr "联盟计划"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_categories
+#: model_terms:theme.ir.ui.view,arch:theme_boec.brand_filter
+msgid "All Products"
+msgstr "所有产品"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget_lines__practical_amount
+msgid "Amount really earned/spent."
+msgstr "实际收入/支出金额。"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget_lines__theoritical_amount
+msgid "Amount you are supposed to have earned/spent at this date."
+msgstr "您在此日期应该赚取/花费的金额。"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget_lines__planned_amount
+msgid ""
+"Amount you plan to earn/spend. Record a positive amount if it is a revenue "
+"and a negative amount if it is a cost."
+msgstr ""
+"您计划赚取/花费的金额。 如果是收入，则记录为正数，如果是成本，则记录为负数。"
+
+#. module: om_account_budget
+#: model:ir.model,name:om_account_budget.model_account_analytic_account
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__analytic_account_id
+msgid "Analytic Account"
+msgstr "分析账户"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__analytic_group_id
+msgid "Analytic Group"
+msgstr "分析组"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Approve"
+msgstr "批准"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Article"
+msgstr "文章"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Articles"
+msgstr "文章"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid ""
+"As you might expect of a company that began as a high-end interiors "
+"contractor, we pay strict attention."
+msgstr "正如您对一家以高端内饰承包商起家的公司所期望的那样，我们非常关注。"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid ""
+"Be the first to know about new arrivals, look books, sales &amp; promos!"
+msgstr "成为第一个了解新品、外观书籍、销售和销售的人 促销！"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Become a supplier"
+msgstr "成为供应商"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_preview
+msgid "Blog Post Cover"
+msgstr "博客文章封面"
+
+#. module: theme_boec
+#: model:ir.actions.act_window,name:theme_boec.boec_config_action
+msgid "Boec Config"
+msgstr "Boec 设置"
+
+#. module: theme_boec
+#: model:ir.ui.menu,name:theme_boec.boec_config_menu
+msgid "Boec Configuration"
+msgstr "Boec 配置"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.brand_filter
+msgid ""
+"Brand Filter\n"
+"                                                <i class=\"fas fa-angle-down"
+"\"/>"
+msgstr ""
+"品牌筛选\n"
+"                                                <i class=\"fas fa-angle-down"
+"\"/>"
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__brand_name
+msgid "Brand Name"
+msgstr "品牌名称"
+
+#. module: om_account_budget
+#: model:ir.model,name:om_account_budget.model_crossovered_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__crossovered_budget_id
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_tree
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_search
+msgid "Budget"
+msgstr "预算"
+
+#. module: om_account_budget
+#: model:ir.actions.act_window,name:om_account_budget.act_account_analytic_account_cb_lines
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_account_analytic_account_form_inherit_budget
+msgid "Budget Items"
+msgstr "预算项目"
+
+#. module: om_account_budget
+#: model:ir.model,name:om_account_budget.model_crossovered_budget_lines
+msgid "Budget Line"
+msgstr "预算行"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_analytic_account__crossovered_budget_line
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__crossovered_budget_line
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_form
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_graph
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_pivot
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_search
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_tree
+msgid "Budget Lines"
+msgstr "预算行"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__name
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Budget Name"
+msgstr "预算名称"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__crossovered_budget_state
+msgid "Budget State"
+msgstr "预算状态"
+
+#. module: om_account_budget
+#: model:ir.model,name:om_account_budget.model_account_budget_post
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__general_budget_id
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_budget_post_form
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_budget_post_search
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_budget_post_tree
+msgid "Budgetary Position"
+msgstr "预算状况"
+
+#. module: om_account_budget
+#: model:ir.actions.act_window,name:om_account_budget.open_budget_post_form
+#: model:ir.ui.menu,name:om_account_budget.menu_budget_post_form
+msgid "Budgetary Positions"
+msgstr "预算位置"
+
+#. module: om_account_budget
+#: model:ir.actions.act_window,name:om_account_budget.act_crossovered_budget_view
+#: model:ir.ui.menu,name:om_account_budget.menu_act_crossovered_budget_view
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_search
+msgid "Budgets"
+msgstr "预算"
+
+#. module: om_account_budget
+#: model:ir.actions.act_window,name:om_account_budget.act_crossovered_budget_lines_view
+#: model:ir.ui.menu,name:om_account_budget.menu_act_crossovered_budget_lines_view
+msgid "Budgets Analysis"
+msgstr "预算分析"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "C.E.O"
+msgstr "总裁"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "COMMENT"
+msgstr "评论"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Cancel Budget"
+msgstr "取消预算"
+
+#. module: om_account_budget
+#: model:ir.model.fields.selection,name:om_account_budget.selection__crossovered_budget__state__cancel
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Card image cap"
+msgstr "卡片图像上限"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_payment_top
+msgid "Cart"
+msgstr "大车"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Catalog price: High to Low"
+msgstr "目录价格：从高到低"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Catalog price: Low to High"
+msgstr "目录价格：从低到高"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_categories
+msgid ""
+"Categories\n"
+"                                                <i class=\"fas fa-angle-up\"/"
+">"
+msgstr ""
+"类别\n"
+"                                                <i class=\"fas fa-angle-up\"/"
+">"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Categories:"
+msgstr "类别："
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_tic
+msgid "Checked Icon"
+msgstr "选中图标"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_checkout_top
+msgid "Checkout"
+msgstr "结账"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid "Click here"
+msgstr "单击此处"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid ""
+"Click on \"<b>New</b>\" in the top-right corner to write your first blog "
+"post."
+msgstr "点击右上角的\"<b>新建</b>\"来写你的第一篇博文。"
+
+#. module: om_account_budget
+#: model_terms:ir.actions.act_window,help:om_account_budget.act_crossovered_budget_view
+msgid "Click to create a new budget."
+msgstr "单击以创建新预算。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "Click to open"
+msgstr "单击打开"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.demo_product
+msgid "Cloathing <br/>Collection 2030"
+msgstr "服装 <br/>系列 2030"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.demo_product
+msgid "Cloathing Collection 2030"
+msgstr "服装 系列 2030"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Cloathing Store"
+msgstr "服装店"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "Cloathing hot"
+msgstr "热门服装"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Close"
+msgstr "关闭"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_post_info
+msgid "Comments"
+msgstr "评论"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__company_id
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__company_id
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__company_id
+msgid "Company"
+msgstr "单位"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_comparison_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_buttons
+msgid "Compare"
+msgstr "相比"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget_lines__percentage
+msgid ""
+"Comparison between practical and theoretical amount. This measure tells you "
+"if you are below or over budget."
+msgstr "实际用量与理论用量的比较。 此衡量标准会告诉您是否低于或超出预算。"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_confirmation_top
+msgid "Confirmation"
+msgstr "确认"
+
+#. module: om_account_budget
+#: model:ir.model.fields.selection,name:om_account_budget.selection__crossovered_budget__state__confirm
+msgid "Confirmed"
+msgstr "确认的"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "Contact Us"
+msgstr "联系我们"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid ""
+"Contextual\n"
+"                                                        advertising programs "
+"sometimes have strict policies\n"
+"                                                        that need to be "
+"adhered too. Let’s take Google as an example."
+msgstr ""
+"语境\n"
+"                                                         广告计划有时有严格的"
+"政策\n"
+"                                                         这也需要遵守。 我们"
+"以谷歌为例。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid ""
+"Copyright © 2021 All rights reserved | This template is made with\n"
+"                                        <span class=\"far fa-heart\"/> by"
+msgstr ""
+"版权所有 © 2021 保留所有权利 | 这个模板是用\n"
+"                                         <span class=\"far fa-heart\"/> by"
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__date_end
+msgid "Counter End Date"
+msgstr "柜台结束日期"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart_coupon
+msgid "Coupon code"
+msgstr "优惠卷号码"
+
+#. module: theme_boec
+#: model_terms:ir.actions.act_window,help:theme_boec.action_product_brand
+msgid "Create a new record!"
+msgstr "创建新记录！"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__create_uid
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__create_uid
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__create_uid
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__create_uid
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__create_date
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__create_date
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__create_date
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__create_date
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid ""
+"Cu decore tamquam democritum qui. Cu quem probatus vix. Cu per sanctus "
+"mnesarchum, ut civibus\n"
+"                                            signiferumque eum."
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "Cu simul utamur maiestatis est"
+msgstr ""
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__currency_id
+msgid "Currency"
+msgstr "货币"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "Current Trends"
+msgstr "当前趋势"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Customer Reviews"
+msgstr "顾客评论"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Cybrosys"
+msgstr "过程"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.boec_config_form
+msgid "Deal of the Week"
+msgstr "本周最佳交易"
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__deal_week_product_id
+msgid "Deal of the Week Product"
+msgstr "每周交易产品"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "Deal of the week"
+msgstr "本周最佳交易"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Description"
+msgstr "描述"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_analytic_account__display_name
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__display_name
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__display_name
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__display_name
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__display_name
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__display_name
+#: model:ir.model.fields,field_description:theme_boec.field_product_template__display_name
+#: model:ir.model.fields,field_description:theme_boec.field_theme_utils__display_name
+#: model:ir.model.fields,field_description:theme_boec.field_website__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: om_account_budget
+#: model:ir.model.fields.selection,name:om_account_budget.selection__crossovered_budget__state__done
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Done"
+msgstr "完成"
+
+#. module: om_account_budget
+#: model:ir.model.fields.selection,name:om_account_budget.selection__crossovered_budget__state__draft
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_search
+msgid "Draft"
+msgstr "草稿"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_search
+msgid "Draft Budgets"
+msgstr "预算草案"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop
+msgid "Drag building blocks here to customize the header for \""
+msgstr "将构建模块拖到此处以自定义"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "EMAIL"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "Eius oratio indoctum in mea"
+msgstr ""
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__date_to
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__date_to
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Entries..."
+msgstr "条目。。。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+msgid "Est nibh wisi magna ad"
+msgstr "这是件大事"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid "FAQS"
+msgstr "常见问题"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "FASHION DESIGNER"
+msgstr "时装设计师"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.banner
+#, fuzzy
+msgid ""
+"Fall - Winter <br/>\n"
+"                                            Collection 2030"
+msgstr "服装 <br/>系列 2030"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Fasion Design"
+msgstr "时尚设计"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricefilter
+msgid "Filter"
+msgstr "筛选"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_follower_ids
+msgid "Followers"
+msgstr "关注"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者（频道）"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid "Free shipping, 30-day return or refund guarantee."
+msgstr "免费送货，30 天退货或退款保证。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "Glass Collection"
+msgstr "玻璃系列"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_search
+msgid "Group By"
+msgstr "分组依据"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "HSN/SAC:"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Happy Clients"
+msgstr "快乐的客户"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_address_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_checkout_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_comparison_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_confirmation_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_payment_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_portal_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_wishlist_top
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Home"
+msgstr "首页"
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_product_product__hot_deals
+#: model:ir.model.fields,field_description:theme_boec.field_product_template__hot_deals
+#: model_terms:ir.ui.view,arch_db:theme_boec.hot_deals
+msgid "Hot Sale"
+msgstr "热销"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "Hot Sales"
+msgstr "热销"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_analytic_account__id
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__id
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__id
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__id
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__id
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__id
+#: model:ir.model.fields,field_description:theme_boec.field_product_template__id
+#: model:ir.model.fields,field_description:theme_boec.field_theme_utils__id
+#: model:ir.model.fields,field_description:theme_boec.field_website__id
+msgid "ID"
+msgstr ""
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_needaction
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新邮件。"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_has_error
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件有传递错误。"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "In Country"
+msgstr "在国内"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid ""
+"In this digital generation where information can be easily obtained within "
+"seconds, business cards still\n"
+"                                                        have retained their "
+"importance."
+msgstr ""
+"在这个可以在几秒钟内轻松获取信息的数字时代，名片仍然\n"
+"                                                         保留了它们的重要性。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.insta_feed
+msgid "Instagram"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Investor relations"
+msgstr "投资者关系"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__is_above_budget
+msgid "Is Above Budget"
+msgstr "超出预算"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Jhon Terry"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Jhon Wick"
+msgstr ""
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_analytic_account____last_update
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post____last_update
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget____last_update
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines____last_update
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config____last_update
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand____last_update
+#: model:ir.model.fields,field_description:theme_boec.field_product_template____last_update
+#: model:ir.model.fields,field_description:theme_boec.field_theme_utils____last_update
+#: model:ir.model.fields,field_description:theme_boec.field_website____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__write_uid
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__write_uid
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__write_uid
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__write_uid
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__write_date
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__write_date
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__write_date
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__write_date
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "Latest News"
+msgstr "最新消息"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_login
+msgid "Login"
+msgstr "登陆"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.insta_feed
+msgid ""
+"Lorem ipsum dolor sit amet,\n"
+"                                        consectetur adipiscing elit, sed do "
+"eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "MANAGER"
+msgstr "经理"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Maria Thomas"
+msgstr ""
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__max_price
+msgid "Maximum Price"
+msgstr "最高价"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Meet Our Team"
+msgstr "见见我们的团队"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Men Suite"
+msgstr "男士西装"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "Men T-shirt"
+msgstr "男士 T 恤"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_portal_top
+msgid "My Account"
+msgstr "我的账户"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid "My Cart"
+msgstr "我的购物车"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+#, fuzzy
+msgid "NAME"
+msgstr "名称"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "NEWSLETTER"
+msgstr "通讯"
+
+#. modules: theme_boec, om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_account_budget_post__name
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__name
+#: model:ir.model.fields,field_description:theme_boec.field_boec_config__name
+msgid "Name"
+msgstr "名称"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Name: A to Z"
+msgstr "名称：A 到 Z"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Name: Z to A"
+msgstr "名称：Z 到 A"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Nancy Airam"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "New"
+msgstr "新的"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+msgid "New Arrivals"
+msgstr "新品推荐"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "New Arrivels"
+msgstr "新品上市"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "No blog post yet."
+msgstr "还没有博客文章。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "No results for \"%s\"."
+msgstr "没有 \"%s\" 的结果。"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_search
+msgid "Not Cancelled"
+msgstr "未取消"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog
+msgid "Our Blog"
+msgstr "我们的博客"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Our Clients"
+msgstr "我们的客户"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Our Team"
+msgstr "我们的团队"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Our delivery"
+msgstr "我们的送货"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricefilter
+msgid "PRICE:"
+msgstr "价格："
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__paid_date
+msgid "Paid Date"
+msgstr "付款日期"
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__parent_id
+msgid "Parent Brand"
+msgstr "母品牌"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Partner"
+msgstr "伙伴"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Patric Viara"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_payment_top
+msgid "Payment"
+msgstr "支付"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Period"
+msgstr "预算"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__planned_amount
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Planned Amount"
+msgstr "计划金额"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_graph
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_pivot
+msgid "Planned amount"
+msgstr "计划金额"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "Please add Deal of the Week Product in the Boec Configuration"
+msgstr "请在 Boec 配置中添加本周交易产品"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid "Please proceed your current cart."
+msgstr "请继续您当前的购物车。"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__practical_amount
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_account_analytic_account_form_inherit_budget
+msgid "Practical Amount"
+msgstr "实际用量"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_graph
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_pivot
+msgid "Practical amount"
+msgstr "实际用量"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.boec_config_form
+msgid "Price Filter"
+msgstr "价格筛选"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricefilter
+#, fuzzy
+msgid ""
+"Price Filter\n"
+"                                                <i class=\"fas fa-angle-down"
+"\"/>"
+msgstr ""
+"品牌筛选\n"
+"                                                <i class=\"fas fa-angle-down"
+"\"/>"
+
+#. module: theme_boec
+#: model:ir.actions.act_window,name:theme_boec.action_product_brand
+#: model:ir.model,name:theme_boec.model_product_brand
+#: model:ir.model.fields,field_description:theme_boec.field_product_product__brand_id
+#: model:ir.model.fields,field_description:theme_boec.field_product_template__brand_id
+#: model:ir.ui.menu,name:theme_boec.menu_product_brand
+msgid "Product Brand"
+msgstr "产品品牌"
+
+#. module: theme_boec
+#: model:ir.model,name:theme_boec.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.product_brand_from_view
+#: model_terms:ir.ui.view,arch_db:theme_boec.product_brand_tree_view
+msgid "Products Brands"
+msgstr "产品品牌"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Published ("
+msgstr "已发表 ("
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.blog_latest
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Read More"
+msgstr "阅读更多"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Read more <i class=\"fa fa-chevron-right ml-2\"/>"
+msgstr "阅读更多 <i class=\"fa fa-chevron-right ml-2\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Read more..."
+msgstr "阅读更多..."
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Remove one"
+msgstr "删除一个"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Reset to Draft"
+msgstr "重置草稿"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__user_id
+msgid "Responsible"
+msgstr "负责"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "SEND MESSAGE"
+msgstr "发送消息"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "SHOP NOW"
+msgstr "立即购买"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.banner
+msgid "SHOP NOW <span class=\"fas fa-long-arrow-alt-right\"/>"
+msgstr "立即购买 <span class=\"fas fa-long-arrow-alt-right\"/>"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "SHOPPING"
+msgstr "购物"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信传递错误"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Sale"
+msgstr "销售"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.deal_week
+msgid "Sale of"
+msgstr "出售"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_search
+msgid "Search.."
+msgstr "搜索..."
+
+#. module: theme_boec
+#: model:ir.model.fields,field_description:theme_boec.field_product_brand__sequence_no
+msgid "Sequence no"
+msgstr "序列号"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_share
+msgid "Share"
+msgstr "分享"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Shoe Store"
+msgstr "鞋店"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.demo_product
+#, fuzzy
+msgid "Shoes <br/>Spring 2030"
+msgstr "服装 <br/>系列 2030"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_address_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_checkout_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_comparison_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_confirmation_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_payment_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_wishlist_top
+msgid "Shop"
+msgstr "店铺"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.demo_product
+msgid "Shop now"
+msgstr "立即购买"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop_add_to_cart
+msgid "Shopping cart"
+msgstr "购物车"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Sort by"
+msgstr "排序依据"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_pricelist_button
+msgid "Sorting by :"
+msgstr "排序依据："
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Specifications for"
+msgstr "规格"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__date_from
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__date_from
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__state
+msgid "Status"
+msgstr "状态"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.banner
+msgid "Summer Collection"
+msgstr "夏季系列"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Terms and Conditions"
+msgstr "条款和条件"
+
+#. module: om_account_budget
+#: code:addons/om_account_budget/models/account_budget.py:0
+#, python-format
+msgid "The budget must have at least one account."
+msgstr "预算必须至少有一个帐户。"
+
+#. module: theme_boec
+#: model:ir.model,name:theme_boec.model_theme_utils
+msgid "Theme Utils"
+msgstr "主题工具"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget_lines__theoritical_amount
+#: model_terms:ir.ui.view,arch_db:om_account_budget.crossovered_budget_view_form
+msgid "Theoretical Amount"
+msgstr "理论量"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_account_analytic_account_form_inherit_budget
+msgid "Theoritical Amount"
+msgstr "理论量"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_graph
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_line_pivot
+msgid "Theoritical amount"
+msgstr "理论量"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "This box will not be visible to your visitors"
+msgstr "您的访问者将看不到此框"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "This combination does not exist."
+msgstr "这种组合不存在。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid "This is your current cart."
+msgstr "这是您当前的购物车。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "This product has no valid combination."
+msgstr "该产品没有有效的组合。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "This product is no longer available."
+msgstr "此产品不再可用。"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_search
+msgid "To Approve"
+msgstr "批准"
+
+#. module: om_account_budget
+#: model_terms:ir.ui.view,arch_db:om_account_budget.view_crossovered_budget_search
+msgid "To Approve Budgets"
+msgstr "批准预算"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+msgid "Toggle navigation"
+msgstr "切换导航"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Total Categories"
+msgstr "总类别"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "Uncategorized"
+msgstr "未分类"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_contact_us
+msgid "United states"
+msgstr "美国"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "Unpublished ("
+msgstr "未发表 ("
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息数"
+
+#. module: om_account_budget
+#: model_terms:ir.actions.act_window,help:om_account_budget.act_crossovered_budget_view
+msgid "Use budgets to compare actual with expected revenues and costs"
+msgstr "使用预算将实际收入和成本与预期收入和成本进行比较"
+
+#. module: om_account_budget
+#: model:ir.model.fields.selection,name:om_account_budget.selection__crossovered_budget__state__validate
+msgid "Validated"
+msgstr "已验证"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_post_info
+msgid "Views"
+msgstr "查看"
+
+#. module: theme_boec
+#: model:ir.model,name:theme_boec.model_website
+msgid "Website"
+msgstr "网站"
+
+#. module: om_account_budget
+#: model:ir.model.fields,field_description:om_account_budget.field_crossovered_budget__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: om_account_budget
+#: model:ir.model.fields,help:om_account_budget.field_crossovered_budget__website_message_ids
+msgid "Website communication history"
+msgstr "网站通讯记录"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "What We Do ?"
+msgstr "我们所做的 ？"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Who We Are ?"
+msgstr "我们是谁 ？"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Who we are"
+msgstr "我们是谁"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "Why Choose Us"
+msgstr "为什么选择我们"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_header
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_wishlist_top
+msgid "Wishlist"
+msgstr "心愿单"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Women Saree"
+msgstr ""
+"11 / 5000\n"
+"翻译结果\n"
+"女式纱丽"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Work with us"
+msgstr "加入我们"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab
+msgid ""
+"You have not selected Hot Sale Products for selecting\n"
+"                                                        please goto Product "
+"&gt; Ecommerce tab and check the hot sale checkbox.\n"
+"                                                        Please select "
+"minimum 12 Products"
+msgstr ""
+"您还没有选择热销产品进行选择\n"
+"                                                         请转到产品 &gt; 电子"
+"商务选项卡并选中热销复选框。\n"
+"                                                         请选择至少 12 个产品"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.brand_filter
+msgid ""
+"You have not selected a Brand, for selecting a brand\n"
+"                                                            please goto "
+"Product &gt; Ecommerce tab and add the brand.\n"
+"                                                            Or switch-off "
+"this filter"
+msgstr ""
+"您还没有选择品牌，用于选择品牌\n"
+"                                                             请转到产品 &gt; "
+"电子商务选项卡并添加品牌。\n"
+"                                                             或者关掉这个过滤"
+"器"
+
+#. module: om_account_budget
+#: code:addons/om_account_budget/models/account_budget.py:0
+#, python-format
+msgid ""
+"You have to enter at least a budgetary position or analytic account on a "
+"budget line."
+msgstr "您必须至少在预算行上输入一个预算头寸或分析科目。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.banner
+msgid ""
+"Your Banner Snippet will be displayed here... Please Save to view the Banner "
+"snippet"
+msgstr "您的横幅代码段将显示在此处...请保存以查看横幅代码段"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.theme_boec_footer
+msgid "Your Mail"
+msgstr "您的邮件"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid "Your previous cart has already been completed."
+msgstr "您之前的购物车已经完成。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_snippet
+msgid ""
+"Your product tab snippet will be displayed here... Please Save to view the "
+"snippet"
+msgstr "您的产品标签片段将显示在此处...请保存以查看片段"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "accountant"
+msgstr "会计"
+
+#. module: theme_boec
+#: model:ir.model,name:theme_boec.model_boec_config
+msgid "boec.config"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_address_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_checkout_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_comparison_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_confirmation_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_payment_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_portal_top
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_shop
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_wishlist_top
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid "breadcrumb"
+msgstr ""
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid "if you want to merge your previous cart into current cart."
+msgstr "如果您想将之前的购物车合并到当前的购物车中。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_cart
+msgid ""
+"if you want to restore your previous cart. Your current cart will be "
+"replaced with your previous cart."
+msgstr "如果您想恢复之前的购物车。 您当前的购物车将替换为您之前的购物车。"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_product_view
+msgid "or"
+msgstr "或"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.product_tab_demo
+msgid "sale"
+msgstr "销售"
+
+#. module: theme_boec
+#: model_terms:theme.ir.ui.view,arch:theme_boec.boec_blog_view
+msgid "unpublished"
+msgstr "未发表"
+
+#. module: theme_boec
+#: model_terms:ir.ui.view,arch_db:theme_boec.about_boec
+#: model_terms:website.page,arch_db:theme_boec.about_boec_page
+msgid ""
+"“Going out after work? Take your butane curling iron with you to the "
+"office,\n"
+"                                                        heat it up, style "
+"your hair before you leave\n"
+"                                                        the office and you "
+"won’t have to make a trip back home.”"
+msgstr ""
+"“Going out after work? Take your butane curling iron with you to the "
+"office,\n"
+"                                                        heat it up, style "
+"your hair before you leave\n"
+"                                                        the office and you "
+"won’t have to make a trip back home.”"

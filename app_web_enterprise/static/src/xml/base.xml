@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="HomeMenu" t-inherit="web_enterprise.HomeMenu" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('o_home_menu')]" position="attributes">
+            <attribute name="t-att-class" value=""/>
+        </xpath>
+    </t>
+
+    <t t-extend="HomeMenu.Content">
+        <t t-jquery=".o_home_menu_footer" t-operation="inner">
+            <img src='/web/binary/company_logo' alt="Logo"/>
+        </t>
+    </t>
+
+    <t t-extend="Menu.sections">
+        <t t-jquery=".dropdown-toggle" t-operation="attributes">
+            <attribute name="class">dropdown-toggle o_menu_header_lvl_1</attribute>
+        </t>
+    </t>
+
+</templates>

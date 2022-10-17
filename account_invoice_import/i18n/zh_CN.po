@@ -1,0 +1,869 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_move.py:0
+#, python-format
+msgid " Amount w/o tax: %s"
+msgstr " 不含税金额：%s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "%d invoice line(s) deleted: %s"
+msgstr "已删除 %d 个发票行：%s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "%d new invoice line(s) created: %s"
+msgstr "创建了 %d 个新发票行：%s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Account missing on product '%s' or on it's related category '%s'."
+msgstr "产品“%s”或其相关类别“%s”上缺少帐户。"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+msgid "Accounting Parameters"
+msgstr "会计参数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_needaction
+msgid "Action Needed"
+msgstr "必须操作"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__active
+msgid "Active"
+msgstr "活跃"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Adjustment"
+msgstr "调整"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__adjustment_credit_account_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__adjustment_credit_account_id
+msgid "Adjustment Credit Account"
+msgstr "调整信用账户"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__adjustment_debit_account_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__adjustment_debit_account_id
+msgid "Adjustment Debit Account"
+msgstr "调整借方账户"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Adjustment on %s"
+msgstr "%s 上的调整"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__account_analytic_id
+msgid "Analytic Account"
+msgstr "分析帐户"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Archived"
+msgstr "已存档"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__invoice_import_create_bank_account
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__invoice_import_create_bank_account
+msgid "Auto-create Bank Account of Supplier"
+msgstr "自动创建供应商银行账户"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__company_id
+msgid "Company"
+msgstr "单位"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_invoice_import_config
+msgid "Configuration for the import of Supplier Invoices"
+msgstr "供应商发票导入配置"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Create"
+msgstr "新建"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Create New"
+msgstr "新建"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Create New Vendor"
+msgstr "新建新供应商"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__create_uid
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__create_date
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__currency_id
+msgid "Currency"
+msgstr "货币"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_id
+msgid "Draft Supplier Invoice to Update"
+msgstr "要更新的供应商发票草稿"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+msgid "Electronic Invoices Import"
+msgstr "电子发票导入"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__account_id
+msgid "Expense Account"
+msgstr "报销单"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_filename
+msgid "Filename"
+msgstr "文件名"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_follower_ids
+msgid "Followers"
+msgstr "关注"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者（频道）"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__label
+msgid "Force Description"
+msgstr "强制描述"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import_config__label
+msgid "Force supplier invoice line description"
+msgstr "强制供应商发票行描述"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Group By"
+msgstr "分组依据"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新邮件。"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件有传递错误。"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"If the format you need is not listed above, you should install an "
+"additionnal Odoo module that adds support for that format (e.g. "
+"<i>account_invoice_import_facturx</i>, <i>account_invoice_import_ubl</i>, "
+"<i>account_invoice_import_invoice2data</i>, etc)."
+msgstr ""
+"如果上面没有列出您需要的格式，您应该安装一个附加的Odoo模块，该模块增加了对该"
+"格式的支持（例如，<i>account_invoice_import_facturx</i>，"
+"<i>account_invoice_import_ubl</i>，<i>account_invoice_import_invoice2data</i>"
+"等）。"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"If there are several invoice import configurations for the supplier of the "
+"invoice, Odoo will ask you to choose one of them. If there is an existing "
+"draft invoice for that supplier, Odoo will propose you to update that draft "
+"invoice or create a new draft invoice."
+msgstr ""
+"如果发票的供应商有多个发票导入配置，Odoo将要求您选择其中一个。如果该供应商已"
+"有发票草稿，Odoo将建议您更新该发票草稿或创建新的发票草稿。"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Import"
+msgstr "导入"
+
+#. module: account_invoice_import
+#: model:ir.actions.act_window,name:account_invoice_import.account_invoice_import_config_action
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_config_menu
+msgid "Import Bills"
+msgstr "导入票据"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_move_form
+msgid "Import Invoice File"
+msgstr "导入发票文件"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_move_form
+msgid "Import Next Invoice"
+msgstr "导入下一张发票"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Import Supplier Invoice or Refund"
+msgstr "导入供应商发票或退款"
+
+#. module: account_invoice_import
+#: model:ir.actions.act_window,name:account_invoice_import.account_invoice_import_action
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_menu
+msgid "Import Vendor Bill"
+msgstr "导入供应商账单"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Import Vendor Bill wizard"
+msgstr "导入供应商帐单向导"
+
+#. module: account_invoice_import
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_config_root
+msgid "Import Vendor Bills"
+msgstr "导入供应商账单"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__invoice_type__in_invoice
+msgid "Invoice"
+msgstr "发票"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__import_config_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__invoice_import_ids
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_users__invoice_import_ids
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+msgid "Invoice Import Configuration"
+msgstr "发票导入配置"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_partner_property_form
+msgid "Invoice Import Configurations"
+msgstr "发票导入配置"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_type
+msgid "Invoice or Refund"
+msgstr "发票或退款"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_move
+msgid "Journal Entry"
+msgstr "日记账分录"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__write_uid
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__write_date
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__invoice_import_email
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__invoice_import_email
+msgid "Mail Gateway: Destination E-mail"
+msgstr "邮件网关：目标电子邮件"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message
+msgid "Message"
+msgstr "消息"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_error
+msgid "Message Delivery error"
+msgstr "消息发送错误"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__invoice_line_method
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Method for Invoice Line"
+msgstr "发票行的方法"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Missing Invoice Import Configuration on partner '%s'."
+msgstr "合作伙伴“%s”上缺少发票导入配置。"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_auto_product
+msgid "Multi Line, Auto-selected Product"
+msgstr "多行，自动选择产品"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_no_product
+msgid "Multi Line, No Product"
+msgstr "多行，无产品"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_static_product
+msgid "Multi Line, Static Product"
+msgstr "多行，静态产品"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__name
+msgid "Name"
+msgstr "名称"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__invoice_import_count
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_users__invoice_import_count
+msgid "Number of Invoice Import Configurations"
+msgstr "发票导入配置数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Only the date format 102 is supported "
+msgstr "仅支持日期格式102 "
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_file
+msgid "PDF or XML Invoice"
+msgstr "PDF或XML发票"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__partner_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Partner"
+msgstr "伙伴"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_country_id
+msgid "Partner Country"
+msgstr "合作伙伴国"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_vat
+msgid "Partner Vat"
+msgstr "合作伙伴税"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__partner-not-found
+msgid "Partner not found"
+msgstr "找不到合作伙伴"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__invoice_type__in_refund
+msgid "Refund"
+msgstr "退款"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信传递错误"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Search Invoice Import Configurations"
+msgstr "搜索发票导入配置"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__config
+msgid "Select Invoice Import Configuration"
+msgstr "选择发票导入配置"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__sequence
+msgid "Sequence"
+msgstr "顺序"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__1line_no_product
+msgid "Single Line, No Product"
+msgstr "单行，无产品"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__1line_static_product
+msgid "Single Line, Static Product"
+msgstr "单行，静态产品"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"Some draft supplier invoices/refunds have been found for the supplier of the "
+"invoice you are importing; one of them may correspond to the invoice you are "
+"importing. You can either select an existing draft supplier invoice to "
+"update or create a new draft invoice."
+msgstr ""
+"已找到您正在导入的发票的供应商的一些草稿供应商发票/退款；其中一个可能对应于您"
+"正在导入的发票。您可以选择要更新的现有草稿供应商发票，也可以创建新的草稿发"
+"票。"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__state
+msgid "State"
+msgstr "国家"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__static_product_id
+msgid "Static Product"
+msgstr "静态产品"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_invoice_import_config.py:0
+#, python-format
+msgid ""
+"Static Product must be set on the invoice import configuration of supplier "
+"'%s' that has a Method for Invoice Line set to 'Single Line, Static Product' "
+"or 'Multi Line, Static Product'."
+msgstr ""
+"必须在供应商“%s”的发票导入配置上设置静态产品，该配置的发票行方法设置为“单行，"
+"静态产品”或“多行，静态产品”。"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__tax_ids
+msgid "Taxes"
+msgstr "税收"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_invoice_import_config.py:0
+#, python-format
+msgid ""
+"The Expense Account must be set on the invoice import configuration of "
+"supplier '%s' that has a Method for Invoice Line set to 'Single Line, No "
+"Product' or 'Multi Line, No Product'."
+msgstr ""
+"必须在供应商“%s”的发票导入配置上设置费用科目，该供应商的发票行方法设置为“单"
+"行，无产品”或“多行，无产品”。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The currency of the imported invoice (%s) is different from the currency of "
+"the existing invoice (%s)"
+msgstr "导入发票（%s）的货币与现有发票（%s）的货币不同"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import_config__invoice_line_method
+msgid ""
+"The multi-line methods will not work for PDF invoices that don't have an "
+"embedded XML file which has structured information on each line."
+msgstr "多行方法不适用于没有在每行上都包含结构化信息的嵌入式XML文件的PDF发票。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The quantity has been updated on the invoice line with product '%s' from %s "
+"to %s %s"
+msgstr "产品“%s”的发票行上的数量已从%s更新为 %s %s"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"The supplier has several invoice import configurations: please select the "
+"one you want to use for this import."
+msgstr "供应商有多个发票导入配置：请选择要用于此导入的配置。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The supplier of the imported invoice (%s) is different from the supplier of "
+"the invoice to update (%s)."
+msgstr "导入发票的供应商（%s）与要更新的发票的供应商（%s）不同。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "The tax amount has been forced to %s (amount computed by Odoo was: %s)."
+msgstr "税额已强制为%s（由系统计算的金额为：%s）。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The total amount is different from the untaxed amount, but no tax has been "
+"configured !"
+msgstr "总金额与未征税金额不同，但未配置税款！"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The unit price has been updated on the invoice line with product '%s' from "
+"%s to %s %s"
+msgstr "产品“%s”的发票行上的单价已从%s更新为%s %s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The vendor to update '%s' already has a VAT number (%s) which is different "
+"from the vendor VAT number of the invoice (%s)."
+msgstr ""
+"要更新“%s”的供应商已经有一个增值税编号（%s），该编号与发票的供应商增值税编号"
+"（%s）不同。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"The vendor to update '%s' already has a country (%s) which is different from "
+"the country of the vendor of the invoice (%s)."
+msgstr "要更新“%s”的供应商的国家（%s）与发票供应商的国家（%s）不同。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "This XML file is not XML-compliant. Error: %s"
+msgstr "此XML文件不符合XML。错误：%s"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_company__invoice_import_email
+#: model:ir.model.fields,help:account_invoice_import.field_res_config_settings__invoice_import_email
+msgid ""
+"This field is used in multi-company setups to import the invoices received "
+"by the mail gateway in the appropriate company"
+msgstr "此字段在多公司设置中用于导入邮件网关在相应公司中接收的发票"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"This invoice already exists in Odoo. It's Supplier Invoice Number is '%s' "
+"and it's Odoo number is '%s'"
+msgstr "此发票已存在于系统中。它的供应商发票号为'%s'，其系统号为'%s'"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"This invoice has been created automatically via file import. Origin: %s."
+msgstr "此发票已通过文件导入自动创建。来源：%s。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "This invoice has been updated automatically via the import of file %s"
+msgstr "此发票已通过导入文件%s自动更新"
+
+#. module: account_invoice_import
+#: model:ir.model.constraint,message:account_invoice_import.constraint_res_company_invoice_import_email_uniq
+msgid "This invoice import email already exists!"
+msgstr "此发票导入电子邮件已存在！"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"This type of PDF invoice is not supported. Did you install the module to "
+"support this type of file?"
+msgstr "不支持此类型的PDF发票。您安装的模块是否支持这种类型的文件？"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"This type of XML invoice is not supported. Did you install the module to "
+"support this type of file?"
+msgstr "不支持此类型的XML发票。您安装的模块是否支持这种类型的文件？"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__amount_total
+msgid "Total"
+msgstr "合计"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__amount_untaxed
+msgid "Total Untaxed"
+msgstr "未征税总额"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息数"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__update
+msgid "Update"
+msgstr "更新"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update Existing"
+msgstr "更新现有"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update Existing Vendor"
+msgstr "更新现有供应商"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__update-from-invoice
+msgid "Update From Invoice"
+msgstr "从发票更新"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update Invoice"
+msgstr "更新发票"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update and Continue"
+msgstr "更新并继续"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update and Show Vendor"
+msgstr "更新并显示供应商"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"Upload below the supplier invoice/refund as PDF or XML file: Odoo will "
+"create a draft supplier invoice/refund. Supported formats:"
+msgstr ""
+"在供应商发票/退款下方上传PDF或XML文件：Odoo将创建供应商发票/退款草稿。支持的"
+"格式："
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_id
+msgid "Vendor"
+msgstr "供应商"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Vendor not found"
+msgstr "找不到供应商"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Vendor to Update"
+msgstr "要更新的供应商"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__website_message_ids
+msgid "Website communication history"
+msgstr "网站通讯记录"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_invoice_import
+msgid "Wizard to import supplier invoices/refunds"
+msgstr "导入供应商发票/退款向导"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"You are importing an invoice in a company that cannot deduct VAT and the "
+"imported invoice has several VAT taxes on the same line (%s). We do not "
+"support this scenario for the moment."
+msgstr ""
+"您在一家无法扣除增值税的公司中导入发票，并且导入的发票在同一行（%s）上有多个"
+"增值税。我们暂时不支持这种情况。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"You have selected a Multi Line method for this import but Odoo could not "
+"extract/read any XML file inside the PDF invoice."
+msgstr "您为此导入选择了多行方法，但Odoo无法提取/读取PDF发票中的任何XML文件。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"You must configure the 'Adjustment Credit Account' on the Accounting "
+"Configuration page."
+msgstr "您必须在“会计配置”页上配置“调整信用帐户”。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid ""
+"You must configure the 'Adjustment Debit Account' on the Accounting "
+"Configuration page."
+msgstr "必须在“会计配置”页上配置“调整借方科目”。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "You must select a supplier invoice or refund to update"
+msgstr "必须选择要更新的供应商发票或退款"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "You must select a vendor to update."
+msgstr "必须选择要更新的供应商。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "You must select an Invoice Import Configuration."
+msgstr "必须选择发票导入配置。"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "email sent by <b>%s</b> on %s with subject <i>%s</i>"
+msgstr "电子邮件由<b>%s</b>在 %s 发送，主题为<i>%s</i>"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "unspecified"
+msgstr "未说明的"

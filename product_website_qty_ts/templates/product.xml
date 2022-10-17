@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--=================== Product ========================-->
+    <template id="product_extended" inherit_id="website_sale.product" name="product">
+        <xpath expr="//div[@id='product_details']//form" position="inside">
+            <input type="hidden" id="qty_multiplier" t-att-value="product.qty_multiplier" />
+            <input type="hidden" id="qty_min" t-att-value="product.qty_min" />
+            <input type="hidden" id="qty_max" t-att-value="product.qty_max" />
+        </xpath>
+    </template>
+
+    <template id="product_quantity_extended" inherit_id="website_sale.product_quantity" name="Select Quantity">
+        <xpath expr="//input[hasclass('quantity')]" position="replace">
+            <t t-set="qty_multiplier" t-value="product.qty_multiplier"/>
+            <t t-set="qty_min" t-value="product.qty_min"/>
+            <t t-set="qty_max" t-value="product.qty_max"/>
+            <t t-if="qty_multiplier == 1 and qty_min == 0">
+                <t t-set="data_min" t-value="1"/>
+            </t>
+            <t t-elif="qty_multiplier > 1 and qty_min == 0">
+                <t t-set="data_min" t-value="qty_multiplier"/>
+            </t>
+            <t t-elif="qty_multiplier == 1 and qty_min > 0">
+                <t t-set="data_min" t-value="qty_min"/>
+            </t>
+            <t t-else="">
+                <t t-if="qty_multiplier >= qty_min">
+                    <t t-set="data_min" t-value="qty_multiplier"/>
+                </t>
+                <t t-else="">
+                    <t t-set="data_min" t-value="qty_min"/>
+                </t>
+            </t>
+            <input type="text" class="form-control quantity" t-att-data-min="data_min" name="add_qty" t-att-value="data_min"/>
+        </xpath>
+    </template>
+</odoo>

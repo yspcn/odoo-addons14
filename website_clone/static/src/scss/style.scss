@@ -1,0 +1,74 @@
+#oe_main_menu_navbar{
+    background-color: rgba(130, 183, 53, 1) !important;
+}
+
+h4{
+
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    display: block;
+    margin-bottom: 20px;
+    color: #2d2a2a;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact_button{
+    color: #fff;
+    background-color: #f90;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+h3{
+    font-family: lato,Arial,Helvetica,sans-serif;
+
+}
+
+p{
+        margin-bottom: 20px;
+            margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: lato,Arial,Helvetica,sans-serif;
+
+}
+
+.faq-content{
+
+    font-family: lato,Arial,Helvetica,sans-serif;
+
+}
+
+
+.o_form_reql:after {
+    content: ' *';
+}
+
+
+
