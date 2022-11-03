@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="baidu_webmaster_code" inherit_id="website.layout" name="Baidu Webmaster Code">
+            <xpath expr="//script[@id='tracking_code']" position="before">
+                <script t-if="website and website.baidu_analytics_key and not editable">
+                var _hmt = _hmt || [];
+                (function(){
+                    var hm = document.createElement("script");
+                    hm.src = "//hm.baidu.com/hm.js?<t t-esc="website.baidu_analytics_key"/>";
+                    var s = document.getElementsByTagName("script")[0]; 
+                    s.parentNode.insertBefore(hm, s);
+                })();
+                </script>
+                <script t-if="website and website.baidu_webmaster_push and not editable">
+                (function(){
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if(curProtocol === 'https'){
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    }else{
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+                </script>
+            </xpath>
+        </template>
+        <template id="china_icp_beian" inherit_id="website.brand_promotion" name="China ICP BeiAn">
+            <xpath expr="//t[@t-set='_message']" position="inside">
+                <a t-if="website and website.china_icp_beian_info and not editable" href="https://beian.miit.gov.cn/" target="_blank">
+                    <t t-esc="website.china_icp_beian_info"/>
+                </a>
+            </xpath>
+        </template>
+        <template id="template_header_contact_oe_structure_header_contact_1" inherit_id="website.template_header_contact_oe_structure_header_contact_1" name="Header Contact China Social">
+            <xpath expr="//div[@data-name='Social Media']" position="inside">
+                <a t-if="website.social_wechat" t-att-href="website.social_wechat" target="_blank"><i class="fa m-1 fa-wechat"/></a>
+                <a t-if="website.social_qq" t-att-href="website.social_qq" target="_blank"><i class="fa m-1 fa-qq"/></a>
+                <a t-if="website.social_weibo" t-att-href="website.social_weibo" target="_blank"><i class="fa m-1 fa-weibo"/></a>
+                <a t-if="website.social_renren" t-att-href="website.social_renren" target="_blank"><i class="fa m-1 fa-renren"/></a>
+            </xpath>
+        </template>
+        <template id="footer_custom" inherit_id="website.footer_custom" name="Footer China Social">
+            <xpath expr="//div[@data-name='Social Media']/a[@href='/']" position="before">
+                <a t-if="website.social_wechat" t-att-href="website.social_wechat" target="_blank"><i class="fa rounded-circle shadow-sm fa-wechat"/></a>
+                <a t-if="website.social_qq" t-att-href="website.social_qq" target="_blank"><i class="fa rounded-circle shadow-sm fa-qq"/></a>
+                <a t-if="website.social_weibo" t-att-href="website.social_weibo" target="_blank"><i class="fa rounded-circle shadow-sm fa-weibo"/></a>
+                <a t-if="website.social_renren" t-att-href="website.social_renren" target="_blank"><i class="fa rounded-circle shadow-sm fa-renren"/></a>
+            </xpath>
+        </template>
+        <template id="baidu_map_company_description" inherit_id="website.company_description" name="Baidu Map Company Description">
+            <xpath expr="//t[@t-if='not res_company.google_map_img()']" position="replace" />
+        </template>
+        <template id="baidu_map_company_description_ext" inherit_id="website.company_description_google_map" name="Baidu Map Company Description Ext">
+            <xpath expr="//t[@t-if='res_company.google_map_img()']" position="replace">
+                <a t-att-href="res_company.baidu_map_link()" target="_blank">
+                   <img class="img-fluid" t-att-src="res_company.baidu_map_img()" alt="Baidu Maps" />
+                </a>
+            </xpath>
+            <xpath expr="//t[@t-elif='editable']" position="replace" />
+        </template>
+    </data>
+</odoo>
